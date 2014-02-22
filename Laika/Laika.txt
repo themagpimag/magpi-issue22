@@ -1,0 +1,95 @@
+Part 1 of 4: Introducing Laika Explorer and Digital Output Electronics
+
+Difficulty: Beginner
+
+Introduction
+
+The Laika Explorer is an I/O (Input/Output) device for your Raspberry Pi. It has seven digital outputs, four digital inputs, two analogue inputs and a dual 1.3Amp motor driver with PWM speed control. The PCB has four on-board switches and seven LED's and can be controlled with Scratch, Python or C.
+Figure 1.0 - The Laika Explorer V1.20
+
+Okay, so another I/O device for the Raspberry Pi, albeit a very pretty one. Well, yes and no. The Laika system has two tricks up its sleeve: USB and an expansion port. Let us start with the USB. This simply means that it connects to your Raspberry Pi (or Linux computing device) using a USB cable and so frees up the GPIO port for any other devices you may already own. Secondly, the expansion port means that the core functionality can be expanded which is why Laika is a system, and the Explorer is the first instalment of this system. Future plug-in modules will include high-current motor drives, I/O expansion, GPS, Bluetooth, WiFi, battery chargers, power supplies and many more- there is room for up to 32 modules, all of which can be controlled through the single USB connection.
+
+After a successful Kickstarter campaign which reached its goal back in August 2013, the Laika Explorer has been put through production and is available now for £34.99, or as an Inventor's Kit for £64.99 [TBC]. This project is more than a PCB design though, its goal is to embellish the hardware with tutorials, guides, lesson plans, schemes of work and example applications. There is much to do but you can see the current state of this work on www.project-laika.com.
+
+
+
+Start Exploring
+
+The idea behind Laika is to promote users getting hands-on with the hardware and electronics. This can be daunting at first with no background knowledge, but I am going to show you how easy this can be. If any of the terms in the opening paragraph confused you then don't worry: after following these tutorials you will have a good enough understanding of the technology to start thinking about designing your own wonderful projects.
+
+Inputs and Outputs
+
+Hold this thought in your head: all a computer is, in very simple terms, is a device that takes a set of inputs, does something with them, and outputs something useful. What the computer does is controlled by a set of instructions – a computer program. Now think of Laika as a way of providing an easier way for you to interface your computer program to those inputs and outputs, or to put it another way, to interface to the real world. You are the most important part in this system because it is you who write the instructions to control the I/O- to control the world!
+
+Let's get Digital
+
+Digital means that data is represented in discrete values and for computers this is usually just two values. You may recognise this as binary (systems do exist with more than two states: trinary for example has three states) and you may think of these two states as 'on' and 'off', 'high' and 'low' or 'one' and 'zero': all are correct but remember that ones and zeros is how data is stored. For example, 'on' could be a state represented by a '1' as you might think, but could equally be represented by '0' if the hardware turns 'on' when it receives a '0'.
+
+So when you are controlling the digital outputs you have two choices: 1 or 0. On the Explorer there are seven digital outputs. You might think of these outputs as being able to drive high and low, that is, when you turn off an output it goes to 0V, and when you turn on and output it goes to some higher voltage. The former is true, but in the case of the Explorer, the latter is not.  
+
+
+
+Figure 2.0 - Digital outputs on the Explorer
+
+The reason for this is that we want to able to do something useful with our outputs and this usually means consuming a certain amount of current. Say for instance, you want to drive a relay which may take 50mA, then a typical microcontroller output is not capable of this and trying to accomplish it will likely damage the device. That's why you need to heed all the warnings about protecting the GPIO port on your Raspberry Pi from over-current. Most add-on GPIO modules promote the fact that they use buffering to prevent this damage.  
+
+To give us the extra power capability, a buffer is also used: you can see it in the picture above labelled as IC3. This device gives us over 100mA per channel which is plenty to drive most relays and even motors. There is a drawback: each digital output is only able to sink current. That means that when it is turned on, the output goes to 0V (a nice example of an 'on' being a 'low', not 'high'). This means that your device, LED, relay or motor, will always have positive + connected, and the negative is what is switched. See Figure 3.0.
+
+Figure 3.0 - Transistor switch
+ 
+The symbol with an arrow is a transistor and you can think of it as a switch, switching the 0V (or ground/GND) to the load. The small circle is effectively the output pin which makes you see that it is not possible to drive the output high: only 0V and open/disconnected. It is possible to design circuitry to drive high as well as low but these come with cost implications.
+
+Now that you have a better understanding of this port it is time to do something useful with it.
+
+Scratch to Digital Outputs
+
+Each output pin is labelled D0 to D6. These are the seven digital outputs and you can control these individually or by writing a single byte to update the whole port in one go. Each output pin has associated with it an on-board LED which means that you can test your output control without any other hardware.
+
+In Scratch you can control the digital output port using binary, integer or hexadecimal. We will use binary as that is the rawest form and is the right place to start if you are learning about computing.
+
+To set the digital outputs in binary do the following:
+
+Click on ‘Variable’ in the top left corner of Scratch.
+Select ‘Make a variable’.
+Make the variable name lk_exp_dout_bin (this must be an exact match).
+
+You should now see that Scratch has automatically produced the following commands:
+
+
+Figure 4.0 – Setting up the digital output variable in Scratch
+
+Move the ‘set’ command into the script area and set the ‘to’ value to ‘0000111’. 
+
+Figure 5.0 – Writing to the digital outputs in Scratch
+
+Click the Green flag and voila[add accent], the LED's indicate the binary value.
+
+
+Figure 6.0 - LED's
+
+Here is an example of controlling a 7-segment display with the digital outputs. See www.project-laika.com for a tutorial.
+Figure 7.0 – 7-segment control
+
+You may have noticed in Figure 2.0 that the digital output pins are accompanied by another pin labelled as 'Vin'. This stands for Voltage In and is connected to the input power of the Explorer board. So if you are using a 5V power adaptor to power your Explorer then Vin will also be 5V. The Explorer is specified to operate between 4.6V and 10.8V, so you need to bare this in mind when connecting your load to the output pins.
+
+EMF
+
+No not the 1990's band with a hit song Unbelievable, but rather Electromotive Force – much more interesting I am sure you'll agree. You don't need to fully understand EMF, unless you have a physics exam coming up, but you should be aware of it. Remember this: pass an electric current through a piece of wire and you'll produce a magnetic field around it. When you remove the power that magnetic field collapses and causes some portion of energy to return to the source- this is known as back-EMF or counter-EMF, and can damage sensitive electronic components.
+
+If all you are driving is LEDs then you can forget about back-EMF as there aren't enough coils of wire to produce enough energy to cause any damage- it is still there but is negligible. If, on the other hand, you are driving a motor or a relay which are effectively inductors made from coils of fine wire, then there will be a significant amount of back-EMF. So the amount of back-EMF is affected by the length of wire used? Yes! That is why you should always keep any wires carrying significant power as short as possible. Don't bundle all wires together, try not to coil them up too much as this may cause cross-talk where one wire induces interference on another and keep your signal wires away from your power wires and electrically noisy devices like motors. This is a very deep subject but as long as you have consideration you should be fine.
+
+To protect the Explorer outputs from damage by back-EMF each output is protected by a diode which allows the nasty EMF current to be dissipated as heat through the diode and away from our delicate transistors. To take advantage of this feature you need to connect all loads that are controlled by the digital output pins to the Vin pin as this completes the circuit. You may never consider using anything other than Vin as your power source for the digital outputs, but you could run some LED's from another power source if you wanted. You could run a motor or inductor too but you would have to provide your own diode protection in this case. Figure 8.0 shows an example of how this diode is wired.
+
+
+ 
+
+Next Time
+
+In this article we have covered the digital outputs which means you can now drive relays, motors, LED's, solenoids or whatever can be driven within the parameters. Next time we will look at the inputs both analogue and digital. This leads us to the possibilities of creating a closed-loop system where the output is automatically controlled by values sensed on the inputs opening up all sorts of possibilities.
+
+In the meantime please see www.project-laika.com for more information.   
+
+Part 1: Introducing Laika Explorer and Digital Output Electronics
+Part 2: Analogue and digital inputs
+Part 3: Motor Driving with PWM
+Part 4: Applications- Bringing it all together
