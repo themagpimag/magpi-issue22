@@ -1,0 +1,12 @@
+Welcome to issue 21 of The MagPi magazine, the biggest issue yet at an incredible 48 pages long!  This month we are bursting at the seams with all that is new in the Raspberry Pi world.
+
+To mark the Raspberry Pi’s second birthday, we have a MagPi exclusive five page interview with Eben Upton reviewing the past two years and what the future holds for this credit card sized beauty.  
+
+Also in this issue, Jacob, a young Raspberry Pi enthusiast, describes how he made his Raspberry Pi portable, we have more from the Project Curacao and ModMYPi give us a demo on motion sensing.  We feature a great article on using the command line to troubleshoot network issues, take an in-depth look at turning your Raspberry Pi into an Internet radio device, home built weather stations and how to manage your home aquarium online.  If that wasn’t enough we’ll conclude with a classic by heading deep beneath the earth to the realm of the Dwarven Heartland in the hope of finding gold in the textual game ‘Stronghold of the Dwarven Lords.’
+
+As always, we keep you updated with some of the newest Raspberry Pi goodies available for purchase, upcoming events and book reviews.
+
+The last two weeks has been an exciting time for us at MagPi HQ.  You may have seen from the foundation site that we launched a Kickstarter campaign to bring issues 9 to 19 into printing production.  As with volume 1, this campaign far exceeded our target and we are pleased to write that production of binders and magazines are now under way. 
+
+ To follow our progress why not like us on Facebook at http://www.facebook.com/MagPiMagazine to keep up to date and give us more of your valued feedback.
+
