@@ -1,0 +1,50 @@
+prOmpt> INSERT INTO birdtable (first_name,town,dob,birds) 
+values ("Fred","Epping",19571225,3);
+Query OK, 1 row affected (2.53 sec)
+
+---------------------------------------21
+
+prOmpt> SELECT * from birdtable;
+
+
+------------------------------------------22
+
+prOmpt> SELECT * from birdtable order by first_name;
+
+-----------------------------------------23
+
+prOmpt> SELECT * from birdtable order by birds desc;
+
+--------------------------------------------24
+
+prOmpt> SELECT * from birdtable where (first_name = "Fred");
+
+-------------------------------------------25
+
+prOmpt> SELECT * from birdtable where (first_name like "Fr%");
+
+-------------------------------------------26
+
+prOmpt> SELECT * from birdtable where (first_name like "Fr_d");
+
+----------------------------------------------27
+
+prOmpt> SELECT * from birdtable where (first_name like "%r%");
+
+----------------------------------------------28
+
+prOmpt> SELECT * from birdtable where (birds > 3);
+
+------------------------------------------------29
+
+prOmpt> SELECT * from birdtable where (first_name like "%r%") and bird > 3;
+
+--------------------------------------------30
+
+prOmpt> SELECT * from birdtable where (first_name = "Fred") or bird > 3;
+
+--------------------------------------------31
+
+prOmpt> SELECT town, dob from birdtable where (first_name like "%r%") and bird > 3 order by bird;
+
+
