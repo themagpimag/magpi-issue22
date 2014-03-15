@@ -11,3 +11,11 @@ I'm running a Raspberry Jam on the 12th May at Newcastle under Lyme College.
 Would you be able to help promote the event. The eventbrite URl is:
 https://northstaffsrjam1.eventbrite.co.uk
 ------
+  Norwich Raspberry Pi & ALUG kit meet
+
+  When: Saturday 12th April 2014, 12:00 to 18:00
+  Where: The upper, mezzanine level of The Norwich Arts Center cafe.
+
+  The meeting is free, informal and open to all ages and technical
+backgrounds. More info at http://norwichrpi.org.
+
