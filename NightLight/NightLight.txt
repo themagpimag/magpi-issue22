@@ -1,0 +1,46 @@
+PiBow + PiGlow Night Light
+
+A few weeks ago, I bought a PiGlow on a whim from Pimoroni, but did nothing with it until a few days ago when my son woke up early in the darkness, having had a nasty dream. That made me wonder whether I could make an intelligent night-light for him, that’s dim when all’s well, but lights the room in a soothing glow if he wakes disturbed?
+
+Previously another project I’d started was a home alarm system; it reached proof of concept stage but then stalled. It used a Passive Infrared (PIR) motion detector: the perfect detector for under-bed monsters that go bump in the night.
+
+So, down to business: NiteLite is powered from a Blackberry wall-wart charger.  When the power is switched on, NiteLite starts as part of the boot sequence and the LEDs twinkle. When it detects motion, the style of LED lighting changes to a random choice of four, lasting for five seconds after motion is no longer detected. My chosen styles of flashing perhaps aren’t really suitable for a night light for kids, but they provide good examples with which you or your kids can tinker and make your own.
+
+I’ve used one of my trimmed model A’s plus a custom PiBow to house the night light, but that’s not essential – a model A or B, with the PiGlow are all that’s needed – case selection is up to you but…
+
+Attaching the PIR motion detector (available from farnell / element 14) was a bit tricky for me – the PiGlow makes all the GPIO pins inaccessible using a normal IDC connector.  The solution depends on your soldering skills.  I attached wires to the PIR detector – red (VDD) to pin 1 on the left; grey (OUTPUT) to pin 2 in the center, and black (GND) to pin 3 on the right.
+PIR motion detector pins
+
+PIR motion detector pins
+
+I fed those wires beneath the Raspberry Pi through the holes of the removed AV socket; depending on what case you have, you may be able to find easier holes to use. The red wire is soldered to GPIO pin 1, the black wire is soldered to GPIO pin 6 and the grey wire is soldered to GPIO pin 18.
+NiteLite topside
+
+NiteLite topside
+NiteLite underbelly
+
+NiteLite underbelly
+
+The movement detector could be replaced by a simply switch if you wish – simply connect one end of the switch to GPIO pin 1 (+3.3V) and the other to GPIO pin 18 (GPIO input). Each press of the switch would trigger a new pattern exactly as though the motion had been detected.
+
+The code was a little more complicated than I’d anticipated; the eighteen PiGlow LEDs each have their own number for use by the code, but the numbers do not correspond to any of their colors or positions on the PiGlow board. I ended up writing some mapping code allowing much simpler code to select LED position / colours. That also then allowed the LED pattern code to be cleanly separated and simplified from the rest of the code allowing the various LED patterns to be extended / customized by you / your kids.
+
+Here’s the code and it’s up on GitHub too as https://github.com/PiStuffing/NiteLite:
+
+For use as a night light, the last step is to run the code as part of the Raspberry Pi boot sequence so that it runs as soon as it’s turned on at the wall. This consists of a bash script
+
+This script needs installing by saving it in /etc/init.d and typing
+
+cd /etc/init.d
+
+sudo chmod 755 nitelited.sh
+
+sudo update-rc.d nitelited.sh defaults
+
+In addition to boot-time startup, you can also manually start and stop the nitelite by typing
+
+sudo /etc/init.d/nitelited.sh start | stop
+
+Finally, there’s a video of it in operation on my site at http://blog.pistuffing.co.uk/?p=1748
+
+It didn’t take long to make this fun little project but it covers hardware, electronics and software and is relatively easy for kids and parents to tinker with different light patterns to explore how they work, and learn Python in the process.
