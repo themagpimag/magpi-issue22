@@ -124,42 +124,55 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="162.070015614427" YPOS="289.767716295137" WIDTH="481.560546875" HEIGHT="409.232283704863" RADRECT="14.17322835" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.9760832327" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="3" COLGAP="17.00787402" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="10" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 481.561 0 481.561 0 481.561 0 481.561 0 481.561 409.232 481.561 409.232 481.561 409.232 481.561 409.232 0 409.232 0 409.232 0 409.232 0 409.232 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 481.561 0 481.561 0 481.561 0 481.561 0 481.561 409.232 481.561 409.232 481.561 409.232 481.561 409.232 0 409.232 0 409.232 0 409.232 0 409.232 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="11" CH="I just wanted to let you know that I really enjoyed Martin Hodgson’s Python port of Strongholds of the Dwarven Lords that was in the recent issue of The MagPi. I plan on sharing it with some of my more advanced gifted middle school students.  Please continue to include Python programs like this in your magazine.  It’s nice to be able to do cool things with the Raspberry Pi without needing to purchase hardware or having the needed knowledge to make it work.  I hope to see more of Martin’s submissions in future issues!"/>
+            <ITEXT FONTSIZE="12" CH="I just wanted to let you know that I really enjoyed Martin Hodgson’s Python port of Strongholds of the Dwarven Lords that was in the recent issue of The MagPi. I plan on sharing it with some of my more advanced gifted middle school students.  Please continue to include Python programs like this in your magazine.  It’s nice to be able to do cool things with the Raspberry Pi without needing to purchase hardware or having the needed knowledge to make it work.  I hope to see more of Martin’s submissions in future issues!"/>
             <para ALIGN="3" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" CH="Thanks!"/>
+            <ITEXT FONTSIZE="12" CH="Thanks!"/>
             <para ALIGN="2" LINESP="14"/>
+            <ITEXT FONTSIZE="12" CH="Jason Kibbe"/>
             <para ALIGN="2" LINESP="14"/>
-            <ITEXT FONTSIZE="11" CH="Jason Kibbe"/>
-            <para ALIGN="2" LINESP="14"/>
-            <ITEXT FONTSIZE="11" CH="CAMS North &amp; South Gifted Support"/>
+            <ITEXT FONTSIZE="12" CH="CAMS North &amp; South Gifted Support"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Really enjoyed this issue - thank you very much!"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" FCOLOR="Cyan" FSHADE="100" CH="Really enjoyed this issue - thank you very much!"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="I particularly liked the type-in, oh the memories... Anyway, as per normal, it did not work first time - never had one that did way back then either on my Amstrad. I have enjoyed fixing it. "/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" FCOLOR="Cyan" FSHADE="100" CH="I particularly liked the type-in, oh the memories... Anyway, as per normal, it did not work first time - never had one that did way back then either on my Amstrad. I have enjoyed fixing it. "/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Keep up the good work."/>
             <para ALIGN="3" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" FCOLOR="Cyan" FSHADE="100" CH="Keep up the good work."/>
-            <para ALIGN="3" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" FCOLOR="Cyan" FSHADE="100" CH="Kind regards,"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Kind regards,"/>
+            <para ALIGN="2" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Ian Neill"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
-            <ITEXT FONTSIZE="11" FCOLOR="Cyan" FSHADE="100" CH="Ian Neill"/>
+            <para ALIGN="2" LINESP="14"/>
+            <ITEXT FONTSIZE="12" CH="After taking the plunge and purchasing my very first Raspberry Pi, I stumbled upon your great magazine, As a complete novice to the world of the Raspberry Pi, The MagPi magazine is an excellent resource. The variety of articles, guides and project ideas are an inspiration; there is really something for everyone!"/>
+            <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" CH="Many thanks,"/>
+            <para ALIGN="2" LINESP="14"/>
+            <ITEXT FONTSIZE="12" CH="Caron Jones"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Good day. I am Ober Choo from Cytron Technologies, Malaysia."/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" CH="If you are interested in writing for The MagPi, would like to request an article or would like to join the team involved in the production, please get in touch by emailing the editor at:"/>
+            <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="We are one of the Raspberry Pi resellers in Malaysia. Personally I love your magazine especially as it is open!"/>
+            <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Regards,"/>
+            <para ALIGN="2" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Ober Choo"/>
+            <para ALIGN="2" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Cytron Technologies"/>
+            <para ALIGN="2" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONTSIZE="11" CH="editor@themagpi.com"/>
-            <trail ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="White" FSHADE="100" CH="If you are interested in writing for The MagPi, would like to request an article or would like to join the team involved in the production, please get in touch by emailing the editor at:"/>
+            <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONTSIZE="12" FCOLOR="White" FSHADE="100" CH="editor@themagpi.com"/>
+            <trail ALIGN="1" LINESP="14"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="270.599395761727" YPOS="792.585475287725" WIDTH="251" HEIGHT="17" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Bitstream Charter Bold" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://creativecommons.org/licenses/by-nc-sa/3.0/" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 251 0 251 0 251 0 251 0 251 17 251 17 251 17 251 17 0 17 0 17 0 17 0 17 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 251 0 251 0 251 0 251 0 251 17 251 17 251 17 251 17 0 17 0 17 0 17 0 17 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
