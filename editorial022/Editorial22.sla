@@ -81,32 +81,25 @@
             <PageItemAttributes/>
         </FRAMEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.662063584216" YPOS="191" WIDTH="538.267700195312" HEIGHT="483.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.268 0 538.268 0 538.268 0 538.268 0 538.268 483.5 538.268 483.5 538.268 483.5 538.268 483.5 0 483.5 0 483.5 0 483.5 0 483.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.268 0 538.268 0 538.268 0 538.268 0 538.268 483.5 538.268 483.5 538.268 483.5 538.268 483.5 0 483.5 0 483.5 0 483.5 0 483.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" CH="Welcome to Issue 21 of The MagPi magazine, our biggest issue yet with an incredible 48 pages!"/>
-            <para/>
-            <ITEXT FONT="FreeSans Regular" CH="Once again we are bursting at the seams with all that is new in the Raspberry Pi world."/>
+            <ITEXT FONT="FreeSans Regular" CH="Welcome to issue 22 of The MagPi magazine."/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" CH="To mark the Raspberry Pi's second birthday, we have a MagPi exclusive four page interview with Eben Upton reviewing the past two years and what the future holds for this credit card sized beauty.  "/>
+            <ITEXT FONT="FreeSans Regular" CH="We kick off this month’s issue with an article on astronomical tracking.  Nathan and Nicholas introduce their amazing project, the ‘Reflective Solar Tracker’, a solar cell with the brains of a Raspberry Pi, capable of chasing the sun to improve energy capture by up to 140%!"/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" CH="Also in this issue, Jacob, a young Raspberry Pi enthusiast, describes how he made his Raspberry Pi portable, we have more from Project Curacao plus ModMyPi give us a demo on motion sensing.  We feature a great article on using the command line to troubleshoot network issues, take an in-depth look at turning your Raspberry Pi into an internet radio device, show you how to use a Raspberry Pi with a weather station and also feature how to remotely manage your home saltwater aquarium."/>
+            <ITEXT FONT="FreeSans Regular" CH="Andy Baker returns following his successful quad-copter series and this time he is featuring his intelligent night light.  Andy describes building this project to reassure his son at night and banish those ‘under-bed monsters’ and is a great mix of both the PiBow case and PiGlow add on-board."/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" CH="If that wasn't enough, we conclude with a classic game by heading deep beneath the earth, to the realm of the Dwarven Heartland, in the hope of finding gold in the text adventure &quot;Stronghold of the Dwarven Lords&quot;."/>
+            <ITEXT FONT="FreeSans Regular" CH="We look at the recent successful Kickstarter campaign for the Laika Explorer, a digital Input/Output board for the Raspberry Pi with the genius additions of USB and expansion ports before undertaking a whistle stop tour through the Rotary encoder."/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" CH="As always, we keep you up to date with some of the latest Raspberry Pi goodies available for purchase, upcoming events, great competition prizes from PCSL and two new book reviews."/>
+            <ITEXT FONT="FreeSans Regular" CH="We welcome back Richard Wenner for his second article for The MagPi, where he continues his tutorial on using SQL by explaining how to insert and view stored data.  We have more upcoming Raspberry Pi events from around the world and more book reviews to sink your teeth into."/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" CH="The last two weeks has been an exciting time for us at MagPi HQ.  You may have seen from the Raspberry Pi Foundation site that we launched a short Kickstarter campaign to create a binder to hold all the Volume 2 magazines (issues 9 to 19). This campaign far exceeded our target and we are pleased to announce that production of the binders is now under way. Don't worry if you missed the Kickstarter. The binder and all the Volume 2 magazines will soon be available from our retailers (see page 8). "/>
+            <ITEXT FONT="FreeSans Regular" CH="To finish up, we go out with a bang with three great articles on Debian Packaging, Wyliodrin and Scratch Input/Output devices.  What more Raspberry Pi themed goodness could you possibly want?"/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" CH="To follow our progress, like us on Facebook at "/>
-            <ITEXT FONT="FreeSans Regular" FCOLOR="Blue" CH="http://www.facebook.com/MagPiMagazine"/>
-            <ITEXT FONT="FreeSans Regular" CH=" to keep up to date and give us more of your valuable feedback."/>
-            <para/>
-            <para/>
-            <ITEXT CH="Enjoy this month's magazine!"/>
+            <ITEXT FONT="FreeSans Regular" CH="To follow our progress why not like us on Facebook at http://www.facebook.com/MagPiMagazine to keep up to date and give us more of your valued feedback."/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -118,25 +111,26 @@
             <ITEXT FONT="FreeSans Bold" CH="Ash Stone"/>
             <ITEXT FONT="FreeSans Regular" CH=" - Chief Editor / Administration"/>
             <para LINESP="13"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Ian McAlpine"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Issue Editor / Layout"/>
-            <ITEXT CH=" / Testing / Proof Reading"/>
+            <ITEXT FONT="FreeSans Bold" CH="Les Pounder"/>
+            <ITEXT CH=" - Issue Editor"/>
+            <para LINESP="13"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="W.H. Bell "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="- Layout / Administration"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Bryan Butler"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Page Design / Graphics"/>
             <para LINESP="13"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="W.H. Bell "/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="- Layout / Graphics / Administration"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Ian McAlpine"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Layout"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Matt Judge"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Website / Administration"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Aaron Shaw"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Layout"/>
-            <ITEXT CH=" / Proof Reading"/>
             <para LINESP="13"/>
             <ITEXT FONT="FreeSans Bold" CH="Colin Deady"/>
-            <ITEXT CH=" - Layout"/>
+            <ITEXT CH=" - Layout / Testing / Proof Reading"/>
             <para LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -150,27 +144,25 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="422.410949707031" YPOS="711.654796421322" WIDTH="253.769073486328" HEIGHT="121.889770507812" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="10" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 253.769 0 253.769 0 253.769 0 253.769 0 253.769 121.89 253.769 121.89 253.769 121.89 253.769 121.89 0 121.89 0 121.89 0 121.89 0 121.89 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 253.769 0 253.769 0 253.769 0 253.769 0 253.769 121.89 253.769 121.89 253.769 121.89 253.769 121.89 0 121.89 0 121.89 0 121.89 0 121.89 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="323.41030840105" gYpos="29.45131665902" gWidth="612" gHeight="154.175726115318" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" CH="Amy-Clare Martin"/>
-            <ITEXT CH=" - Layout"/>
-            <para/>
             <ITEXT FONT="FreeSans Bold" CH="Age-Jan (John) Stap"/>
-            <ITEXT CH=" - Layout / Proof Reading"/>
-            <para/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Tim Cox"/>
-            <ITEXT CH=" - Testing / Proof Reading"/>
+            <ITEXT CH=" - Layout"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Sai Yamanoor"/>
             <ITEXT CH=" - Testing"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Claire Price"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - "/>
+            <ITEXT CH="Layout"/>
+            <para/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Shelton Caruthers"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Proof Reading"/>
             <para/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Matthew Watson"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Proof Reading"/>
+            <ITEXT FONT="FreeSans Bold" CH="Nigel Curtis"/>
+            <ITEXT CH=" - Proof Reading"/>
             <para/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="David Whale"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" - Proof Reading"/>
-            <para/>
+            <ITEXT FONT="FreeSans Bold" CH="Paul Carpenter"/>
+            <ITEXT CH=" - Testing"/>
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="91.4966929133858" YPOS="833.891023622048" WIDTH="612.283464566929" HEIGHT="36.5045669291339" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="0.7886597938" PCOLOR="FromSVG#000000" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME=" rect4322" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.5046 612.283 36.5046 612.283 36.5046 612.283 36.5046 0 36.5046 0 36.5046 0 36.5046 0 36.5046 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.5046 612.283 36.5046 612.283 36.5046 612.283 36.5046 0 36.5046 0 36.5046 0 36.5046 0 36.5046 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.5655826771659" gYpos="9.13480843873799" gWidth="636.7980042" gHeight="37.134808438738" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -203,7 +195,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="467.645645745459" YPOS="89.9882491808721" WIDTH="46.3473070531882" HEIGHT="30.9385426291806" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.48607085105092" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Droid Sans Bold" ISIZE="31" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 46.3473 0 46.3473 0 46.3473 0 46.3473 0 46.3473 30.9385 46.3473 30.9385 46.3473 30.9385 46.3473 30.9385 0 30.9385 0 30.9385 0 30.9385 0 30.9385 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 46.3473 0 46.3473 0 46.3473 0 46.3473 0 46.3473 30.9385 46.3473 30.9385 46.3473 30.9385 46.3473 30.9385 0 30.9385 0 30.9385 0 30.9385 0 30.9385 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="3.15494576364733" gYpos="13.5826047441795" gWidth="52.6571311577909" gHeight="52.7345087644103" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="Droid Sans Bold" FONTSIZE="31" FCOLOR="White" CH="21"/>
+            <ITEXT FONT="Droid Sans Bold" FONTSIZE="31" FCOLOR="White" CH="22"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -240,7 +232,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="127.576771653543" YPOS="552.914672851562" WIDTH="220.5" HEIGHT="15.5853548049927" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.facebook.com/MagPiMagazine" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 220.5 0 220.5 0 220.5 0 220.5 0 220.5 15.5854 220.5 15.5854 220.5 15.5854 220.5 15.5854 0 15.5854 0 15.5854 0 15.5854 0 15.5854 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 220.5 0 220.5 0 220.5 0 220.5 0 220.5 15.5854 220.5 15.5854 220.5 15.5854 220.5 15.5854 0 15.5854 0 15.5854 0 15.5854 0 15.5854 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="408.976989746094" YPOS="483" WIDTH="223.272994995117" HEIGHT="14.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.facebook.com/MagPiMagazine" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text25" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 223.273 0 223.273 0 223.273 0 223.273 0 223.273 14.25 223.273 14.25 223.273 14.25 223.273 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 223.273 0 223.273 0 223.273 0 223.273 0 223.273 14.25 223.273 14.25 223.273 14.25 223.273 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
