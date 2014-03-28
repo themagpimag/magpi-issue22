@@ -27,14 +27,14 @@
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <COLOR NAME="wyliodrin" RGB="#c63410" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -288,7 +288,11 @@
             <para PARENT="Body text"/>
             <ITEXT CH="• LED"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="• 220R resistor (or similar eg 470R)"/>
+            <ITEXT CH="• 220"/>
+            <ITEXT FONT="FreeSans Regular" CH="Ω"/>
+            <ITEXT CH=" resistor (or similar eg 470"/>
+            <ITEXT FONT="FreeSans Regular" CH="Ω"/>
+            <ITEXT CH=")"/>
             <para PARENT="Body text"/>
             <ITEXT CH="• 2x jumper wires"/>
             <para PARENT="Body text"/>
@@ -313,70 +317,124 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Below is the Visual Programming blocks needed to make a LED blink using the Raspberry Pi, plus the generated Python code."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Music and an LCD display"/>
+            <ITEXT CH="Music and an LCD"/>
             <para PARENT="Body title"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="The next project that we want to show you is building a music station with an LCD. We will use as sound input an online radio and we will display on an LCD a VU meter and the name of the song that is currently played. For this, we will need to following:"/>
+            <ITEXT CH="Our next Wyliodrin project shows you how to build an internet radio complete with an LCD. We will use the LCD to display a VU meter plus the name of the song that is currently playing. For the electronics setup you need the following components:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="1 breadboard"/>
+            <ITEXT CH="• breadboard"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="an LCD screen (16x2 is ours, but it can be a different one)"/>
+            <ITEXT CH="• 16x2 LCD screen (other sizes can be used)"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="1 potentiometer"/>
+            <ITEXT CH="• 10k"/>
+            <ITEXT FONT="FreeSans Regular" CH="Ω"/>
+            <ITEXT CH=" potentiometer"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="14 jumper wires"/>
+            <ITEXT CH="• 14x jumper wires"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="the Raspberry Pi model B."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The schematics is shown below."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Wiring up an LCD can be done in two ways, we will use the one that requires a smaller number of wires. First of all, you have to power up the LCD. Please be carefull, the pin layout of the LCD may vary from model to model, so take a look at the data sheet. Our LCD is a 5V one with 16 columns and two lines. It’s data sheet can be found on http://robofun.ro/docs/RC1602B-BIW-CSX.pdf. You connect the ground (VSS) pins to the ground of the Raspberry Pi, the 5 V pin (VDD) to the 5 V on the Raspberry Pi. The VO pin of the LCD is used to set up the contrast, so connect it to a potentiometer. Also wire the backlight pins (LED - and +) to the ground and 5 V on the Raspberry Pi."/>
+            <ITEXT CH="• Raspberry Pi"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="You also need to connect the RS, E, DB4, DB5, DB6 and DB7 to the Raspberry Pi. You can connect them to any of the Raspberry Pi GPIO data. The R/W pin is connected to the ground, as we will only send data to the LCD."/>
+            <ITEXT CH="The wiring diagram is shown below."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Wiring up the LCD can be done in two ways; we will use the one that requires the least number of wires. First, you have to power up the LCD. Please be carefull. The pin layout of the LCD may vary from model to model, so take a look at its data sheet. Our LCD is a 5V one with 16 columns and 2 rows. Its data sheet can be found at "/>
+            <ITEXT FCOLOR="Blue" CH="http://robofun.ro/docs/RC1602B-BIW-CSX.pdf"/>
+            <ITEXT CH=" Connect the ground pin (V"/>
+            <ITEXT FEATURES="inherit subscript" CH="SS"/>
+            <ITEXT CH=") to the ground of the Raspberry Pi and the 5V pin (V"/>
+            <ITEXT FEATURES="inherit subscript" CH="DD"/>
+            <ITEXT CH=") to the 5V pin on the Raspberry Pi. The VO pin on the LCD is used to set up the contrast, so connect it to the wiper of the 10k"/>
+            <ITEXT FONT="FreeSans Regular" CH="Ω"/>
+            <ITEXT CH=" potentiometer. Also wire the backlight pins (LED - and LED +) to the ground and 5V on the Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Let’s make a new project and write the software. Select the Visual programming language, so that you can drag and drop blocks and Wyliodrin will write the Python code for you. Start from an existing project called Music. This way you have the music player set up. Once you have created the project, click it and edit it."/>
+            <ITEXT CH="You also need to connect the RS, E, DB4, DB5, DB6 and DB7 to the Raspberry Pi. You can connect them to any of the Raspberry Pi GPIO data pins. The R/W pin is connected to ground as we will only write data to the LCD."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="As you can see above, you already have the blocks for playing music from an online radio. The default online radio is not showing the title of the song, so please change it to another. Click on the block named “Load audio stream from” and write another address. Use any online radio station that you like. Once you have written the address, let’s test if it plays. Press the Run button on the top. Don’t forget to use a loudspeaker for the Raspberry Pi."/>
+            <ITEXT CH="Let’s make a new project and write the software. Click on the &quot;Create new project&quot; button and choose "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Music - Visual Programming"/>
+            <ITEXT CH=", so that you can drag and drop blocks and Wyliodrin will write the Python code for you. This way you have the music player set up. Once you have created the project, click it and edit it."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="As you can see above, you already have the blocks for playing music from an online radio station. The default station does not show the title of the song, so please change it to another. Click on the block “Load audio stream from” and enter another address. "/>
+            <ITEXT FONT="FreeSans Oblique" CH="[Ed: See The MagPi issue 21, page 24 for some examples, eg "/>
+            <ITEXT FONT="FreeSans Oblique" FCOLOR="Blue" CH="http://pub6.sky.fm:80/sky_tophits"/>
+            <ITEXT FONT="FreeSans Oblique" CH=".]"/>
+            <ITEXT CH=" Let’s test if it plays. Click on the &quot;Run&quot; button and don’t forget to connect a speaker to your Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now let’s modify the program so that it displays the song title and then shows a VU meter. First of all, you need to initialize the LCD display. For this, go to the LCD blocks on the left toolbar and drag the Init LCD block and place it between the Play audio stream and repeat blocks. You will see you need to set the pin numbers. In our example, the pins are RS 0, E 2, Data1 3, Data2 12, Data3 13 and Data4 14. They are the same as in the schematics. Another parameter is the number of columns and lines. Our LCD is 16 columns and 2 lines."/>
+            <ITEXT CH="Now let’s modify the program so that it displays the song title and then shows a VU meter. First, you need to initialise the LCD. Go to the LCD blocks on the left toolbar and drag the &quot;Init LCD&quot; block and place it between the &quot;Play audio stream&quot; and &quot;repeat&quot; blocks. You will see you need to set the LCD pin numbers. For our LCD, the pins are RS = 4, E = 6, Data1 = 11, Data2 =  12, Data3 = 13 and Data4 = 14. They are the same as in the wiring diagram. Another parameter is the number of columns and rows. Our LCD is 16 columns and 2 rows."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="First let’s will display the Radio station information. Inside the repeat block, after the delay block, put a Reset Position on LCD block. The LCD works like the normal screen, once you write on it, it moves the cursor ahead. As we want to display the name at the beginning, you need to reset the cursor’s position. After this, place a Print on LCD block. Inside this block, replace the text with the Audio Stream Address Title block found in the Multimedia blocks of the toolbar. This block receives a parameter with the variable of the stream. By default, this is called audio. Change it to music (the same variable used for the other multimedia blocks)."/>
+            <ITEXT CH="Let’s display the internet radio station information. Inside the &quot;repeat&quot; block, after the &quot;delay&quot; block, put a &quot;Reset Position on LCD&quot; block. The LCD works like a normal screen: once you write on it, it moves the cursor ahead. As we want to display the name at the beginning, you need to reset the cursor’s position."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="After this, place a &quot;Print on LCD block&quot;. Inside this block, replace the text block with the &quot;Audio stream Address Title&quot; block, which is found in the Multimedia blocks on the left toolbar. This block receives a parameter with the variable of the stream. By default, this is called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="audio"/>
+            <ITEXT CH=". Change it to "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="music"/>
+            <ITEXT CH=" (the same variable used for the other Multimedia blocks)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Running the project should result in displaying the station name or song title (depending on what the station broadcasts). Some stations do not provide this information so don’t worry if nothing is written."/>
+            <ITEXT CH="Click the &quot;Run&quot; button and you should see the station name or song title (depending on what the station broadcasts) on the LCD. Some stations do not provide this information so don’t worry if nothing is written."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The VU meter is a measure of how loud the music is. We want to display this in the form of * on the LCD. For this, you need to use the Stream level block from the Multimedia blocks. First of all, set a variable called l to the value returned by Stream level. For this, drag the Set variable to block from Variables. Connect to this block the Stream level block. Select the correct stream name (music) and scale it to 10. the scaling will tell the block to return a value between 0 and 10."/>
+            <ITEXT CH="The VU meter is a measure of how loud the music is. We want to display this in the form of "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="*"/>
+            <ITEXT CH=" (asterisks) on the LCD. For this, you need to use the &quot;Stream level&quot; block from the Multimedia blocks. First, set a variable called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="l"/>
+            <ITEXT CH=" to the value returned by the &quot;Stream level&quot; block. To do this, drag the &quot;Set variable to&quot; block from Variables and place it after the &quot;Print on LCD&quot; block. Create a new variable called "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="l"/>
+            <ITEXT CH=". Connect to this block the &quot;Stream level&quot; block. Select the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="music"/>
+            <ITEXT CH=" stream and set the scale to "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="10"/>
+            <ITEXT CH=". The scaling will tell the block to return a value between 0 and 10."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Next we need to display the stars. Set the LCD position at the beginning of the second line using a Set LCD position block. We will take a count block, set it’s variable to i and make it count from 1 to 10 by 1. This means that the content of this block will be repeated for every value of i from 1 to 10. The first time it repeats, the value i will have the value 1, the next time 2, and so on up to 10."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Inside this block, we will display on the LCD either a * either a space using the following rule. If the variable l (that stores the current level) is less than i, then we display a *, otherwise we display a space. For this we will use a condition block called if. Drag an if block inside the count block. The if block has a star on it. if you click it, a small window will appear and we may set up the block. We need to drag an else block inside the if. Once you have done this, you are ready to write on the screen. Connect to the if the less or equal condition block. You can find it on the Logic block on the toolbar. The condition that we want is i &lt;= l. We need to drag the i and l blocks from the Variables blocks in the toolbar."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The if block has two parts; do and else. The do part will be executed if the condition is true, the else will be executed if the condition is false. In the do part, place a Print in LCD block with the text *. On the else part, put a Print on LCD block with the text a space."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="If you run the program, you will see that the VU meter is displayed but is changes once a second. This is due to the delay block that makes the program wait 1000 milliseconds. Write a lower value for a faster update."/>
+            <ITEXT CH="Next we need to display the asterisks. Set the LCD position to the beginning of the second row Place the &quot;Set LCD Position&quot; block before the &quot;Set variable to&quot; block and set the row to "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="2"/>
+            <ITEXT CH=". From the Loops blocks add a &quot;count with&quot; block and set its variable to "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="i"/>
+            <ITEXT CH=" and make it count from 1 to 10 by 1. This means that the content of this block will be repeated for every value of "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="i"/>
+            <ITEXT CH=" from 1 to 10. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The program is shown below."/>
+            <ITEXT CH="Inside this block we display on the LCD either a "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="*"/>
+            <ITEXT CH=" or a space using the following rule. If the variable "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="l"/>
+            <ITEXT CH=" (that stores the current level) is less than "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="i"/>
+            <ITEXT CH=", then we display a "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="*"/>
+            <ITEXT CH=" otherwise we display a space. For this we use a Logic block called &quot;if&quot;. Drag an &quot;if&quot; block inside the &quot;count with&quot; block. The &quot;if&quot; block has a star on it. If you click it, a small window will appear and we can set up the block. We need to drag an &quot;else&quot; block inside the &quot;if&quot; block. Once you have done this, you are ready to write on the screen. Connect to the &quot;if&quot; block the &quot;less or equal&quot; Logic block. The condition we want is "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="i"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" &lt;= "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="l"/>
+            <ITEXT CH=". We need to drag in the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="i"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="l"/>
+            <ITEXT CH=" blocks from the Variables block."/>
+            <para PARENT="Body text" LINESPMode="0"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="The &quot;if&quot; block has two parts; &quot;do&quot; and &quot;else&quot;. The &quot;do&quot; part will be executed if the condition is true and the &quot;else&quot; part will be executed if the condition is false. In the &quot;do&quot; part, place a &quot;Print on LCD&quot; block with the text "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="*"/>
+            <ITEXT CH=". On the &quot;else&quot; part, place a &quot;Print on LCD&quot; block with a space."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Before you run the program, change the &quot;delay&quot; block to 100 milliseconds for a faster update of the VU meter. The final program is shown below."/>
             <para PARENT="Body text"/>
             <ITEXT CH="Future perspectives"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="We work on implementing graphics, which will allow the users to monitor their boards in real-time. We also plan on introducing more  blocks for the Visual Programming language. We would like to ask you to provide feedback, that is very important for us. If you would like new features or think that we should do something differently, please don't hesitate to contact us."/>
+            <ITEXT CH="We are working on implementing graphics, which will allow users to monitor their Raspberry Pi in real-time. We also plan on introducing more  blocks for the Visual Programming language. We would like to ask you to provide feedback. This is very important for us. If you would like new features or think that we should do something differently, please don't hesitate to contact us."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="You can read more about the project by accessing the website http://www.wyliodrin.com, on Facebook and Google Plus pages Wyliodrin and on the Twitter account @wyliodrin."/>
+            <ITEXT CH="You can read more about the project at "/>
+            <ITEXT FCOLOR="Blue" CH="http://www.wyliodrin.com"/>
+            <ITEXT CH=", on the Wyliodrin Facebook and Google+ pages and also on Twitter @wyliodrin."/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -500,22 +558,22 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.34708661126" YPOS="3602.17393700811" WIDTH="538.5883465" HEIGHT="730.9955906" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="50">
+        <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.347091674805" YPOS="3602.173828125" WIDTH="538.588317871094" HEIGHT="732.826171875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 732.826 538.588 732.826 538.588 732.826 538.588 732.826 0 732.826 0 732.826 0 732.826 0 732.826 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 732.826 538.588 732.826 538.588 732.826 538.588 732.826 0 732.826 0 732.826 0 732.826 0 732.826 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="50">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="410.408142089844" YPOS="2444.69722717766" WIDTH="256.527282714844" HEIGHT="124.4189453125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.315" LOCALSCY="0.315" LOCALX="-573.939257592801" LOCALY="-211.023622047244" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture7.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 124.419 256.527 124.419 256.527 124.419 256.527 124.419 0 124.419 0 124.419 0 124.419 0 124.419 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 124.419 256.527 124.419 256.527 124.419 256.527 124.419 0 124.419 0 124.419 0 124.419 0 124.419 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347091674805" YPOS="3202.99609375" WIDTH="256.527282714844" HEIGHT="195" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.146666666666667" LOCALSCY="0.146666666666667" LOCALX="19.32712956335" LOCALY="-173.94416607015" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture8.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 195 256.527 195 256.527 195 256.527 195 0 195 0 195 0 195 0 195 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 195 256.527 195 256.527 195 256.527 195 0 195 0 195 0 195 0 195 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="2965.49215674213" WIDTH="256.527282714844" HEIGHT="195" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.146666666666667" LOCALSCY="0.146666666666667" LOCALX="19.32712956335" LOCALY="-173.94416607015" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture8.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 195 256.527 195 256.527 195 256.527 195 0 195 0 195 0 195 0 195 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 195 256.527 195 256.527 195 256.527 195 0 195 0 195 0 195 0 195 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="411.124359130859" YPOS="3129.49609375" WIDTH="255.811065673828" HEIGHT="81" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.375" LOCALSCY="0.375" LOCALX="-491.338582677165" LOCALY="-287.244094488189" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture9.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 81 255.811 81 255.811 81 255.811 81 0 81 0 81 0 81 0 81 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 81 255.811 81 255.811 81 255.811 81 0 81 0 81 0 81 0 81 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="411.124367397038" YPOS="2887.49609375" WIDTH="255.811065673828" HEIGHT="81" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.375" LOCALSCY="0.375" LOCALX="-491.338582677165" LOCALY="-287.244094488189" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture9.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 81 255.811 81 255.811 81 255.811 81 0 81 0 81 0 81 0 81 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 81 255.811 81 255.811 81 255.811 81 0 81 0 81 0 81 0 81 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="2" XPOS="409.62433687946" YPOS="3876.74609375" WIDTH="257.311096191406" HEIGHT="269.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.375" LOCALSCY="0.375" LOCALX="-498.897615752131" LOCALY="-234.330708661417" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture10.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.311 0 257.311 0 257.311 0 257.311 0 257.311 269.75 257.311 269.75 257.311 269.75 257.311 269.75 0 269.75 0 269.75 0 269.75 0 269.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.311 0 257.311 0 257.311 0 257.311 0 257.311 269.75 257.311 269.75 257.311 269.75 257.311 269.75 0 269.75 0 269.75 0 269.75 0 269.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="4" PTYPE="2" XPOS="409.624328613281" YPOS="3797.3759765625" WIDTH="257.311096191406" HEIGHT="307.3740234375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.44" LOCALSCY="0.44" LOCALX="0" LOCALY="-6.44237652111668" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="picture10.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.311 0 257.311 0 257.311 0 257.311 0 257.311 307.374 257.311 307.374 257.311 307.374 257.311 307.374 0 307.374 0 307.374 0 307.374 0 307.374 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.311 0 257.311 0 257.311 0 257.311 0 257.311 307.374 257.311 307.374 257.311 307.374 257.311 307.374 0 307.374 0 307.374 0 307.374 0 307.374 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -560,6 +618,18 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="410.374359130859" YPOS="1370.74609375" WIDTH="256.561065673828" HEIGHT="26.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://www.wyliodrin.com/wiki/boards_setup/raspberrypi" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text88" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.561 0 256.561 0 256.561 0 256.561 0 256.561 26.25 256.561 26.25 256.561 26.25 256.561 26.25 0 26.25 0 26.25 0 26.25 0 26.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.561 0 256.561 0 256.561 0 256.561 0 256.561 26.25 256.561 26.25 256.561 26.25 256.561 26.25 0 26.25 0 26.25 0 26.25 0 26.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="142.520309448242" YPOS="3273" WIDTH="242.229690551758" HEIGHT="16.2916526794434" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://robofun.ro/docs/RC1602B-BIW-CSX.pdf" ANZIEL="3" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text74" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 242.23 0 242.23 0 242.23 0 242.23 0 242.23 16.2917 242.23 16.2917 242.23 16.2917 242.23 16.2917 0 16.2917 0 16.2917 0 16.2917 0 16.2917 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 242.23 0 242.23 0 242.23 0 242.23 0 242.23 16.2917 242.23 16.2917 242.23 16.2917 242.23 16.2917 0 16.2917 0 16.2917 0 16.2917 0 16.2917 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="411.81164334515" YPOS="3078.98031496063" WIDTH="170.902908325195" HEIGHT="13.0200004577637" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://pub6.sky.fm:80/sky_tophits" ANZIEL="3" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text75" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 170.903 0 170.903 0 170.903 0 170.903 0 170.903 13.02 170.903 13.02 170.903 13.02 170.903 13.02 0 13.02 0 13.02 0 13.02 0 13.02 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 170.903 0 170.903 0 170.903 0 170.903 0 170.903 13.02 170.903 13.02 170.903 13.02 170.903 13.02 0 13.02 0 13.02 0 13.02 0 13.02 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="408.977020263672" YPOS="4289.27362204725" WIDTH="131.022994995117" HEIGHT="16.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.wyliodrin.com" ANZIEL="4" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text76" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 131.023 0 131.023 0 131.023 0 131.023 0 131.023 16.5 131.023 16.5 131.023 16.5 131.023 16.5 0 16.5 0 16.5 0 16.5 0 16.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 131.023 0 131.023 0 131.023 0 131.023 0 131.023 16.5 131.023 16.5 131.023 16.5 131.023 16.5 0 16.5 0 16.5 0 16.5 0 16.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
