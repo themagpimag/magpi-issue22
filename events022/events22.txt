@@ -1,21 +1,76 @@
-Could you please announce our show in your magazine.
-It's on the 26th April, information can be found on the web 'Wakefield
-Show 2014.'.
-------
+RPi events 22
+=============
+
+
+
+1)
+http://dcglug.drogon.net/future-jams/
+Saturday 12th April Rooms 10 & 11
+Use text from issue 21
+
+2)
+http://www.eventbrite.fr/e/3914624748
+Raspberry Pi at CERN
+Saturday, April 12, 2014 from 9:30 a.m. to 4:30 p.m. (Central European Time: France)
+Geneva, Switzerland
+Come and discover and experiment in the present of experts. This workshop is Intended for children (from 6yrs) Their parents, teachers and all interested members of the public. The events is at CERN , in 503/1-001 and 510/R-020 . One shoulds enter building 33 and Then collect a badge to access the other rooms.
+CERN 
+Meyrin Route 
+1211 Geneva, Switzerland 
+1211 Geneva 
+Switzerland 
+Saturday, April 12, 2014 from 9:30 a.m. to 4:30 p.m. (Eastern Daylight Time Central European Time: France)
+
 Raspberry Pi au CERN
 12th of April
 10h00 to 16h00
 https://cern-raspberrypi.eventbrite.fr/
--------
-I'm running a Raspberry Jam on the 12th May at Newcastle under Lyme College.
-Would you be able to help promote the event. The eventbrite URl is:
-https://northstaffsrjam1.eventbrite.co.uk
-------
-  Norwich Raspberry Pi & ALUG kit meet
 
-  When: Saturday 12th April 2014, 12:00 to 18:00
-  Where: The upper, mezzanine level of The Norwich Arts Center cafe.
+3) PyCon in Quebec
+http://www.eventbrite.com/e/10565294079
+PyCon 2014: Young Coders
+PyCon 2014
+Saturday, April 12, 2014 at 9:00 AM - Sunday, April 13, 2014 at 4:00 PM (PDT)
+Montr√©al, Qu√©bec
+This free tutorial will explore how to program using Python by making games. We will start with learning Python's simple data types, including numbers, letters and strings, and lists. We will also explore comparisons, if-statements, and loops. Finally, we will combined our new knowledge by creating our own game using the PyGame library.
+Palais des congr√®s de Montr√©al
+201 Viger Ave West 
+Montr√©al, Qu√©bec 
+Canada 
+Saturday, April 12, 2014 at 9:00 AM - Sunday, April 13, 2014 at 4:00 PM (PDT)
 
-  The meeting is free, informal and open to all ages and technical
-backgrounds. More info at http://norwichrpi.org.
 
+4)
+Could you please announce our show in your magazine.
+It's on the 26th April, information can be found on the web 'Wakefield
+Show 2014.'.
+www.wakefieldshow.org.uk
+
+5)
+http://www.eventbrite.com/e/9981423707
+Raspberry Pi: Kids' "Beta" Tech Camp
+Funutation Tekademy LLC
+Sunday, April 27, 2014 from 2:00 PM to 4:00 PM (EDT)
+Beachwood, OH
+Don't think a credit-card sized computer can do much? Guess again. Campers will use a computer called Raspberry Pi to do computer animations, design games, and make simple window applications. Participants work in teams of two. These "Beta" workshops are designed to assure that kids will have a fun/educational time where it will encourage "creative thinking." in the child.
+Funutation Tekademy LLC
+23715 Mercantile Road 
+#215
+Beachwood, OH 44122
+
+--
+No space for:
+
+A) North Staffordshire Raspberry Jam - this is on May 12th so I've bumped to next issue.
+
+B) Robot Pi Hack Day - they've sold out so little point in advertising this now.
+http://www.eventbrite.co.uk/e/10881104677
+Playful Leeds
+Friday, April 11, 2014 from 10:00 AM to 4:00 PM (BST)
+How do you fancy finding out how some simple programming using a bit of code and a cheap computer (called the Raspberry Pi for those of you wondering) with some old robots or junk we've/you've got knocking about can make your old bot learn new tricks?
+We're delighted to be joined by the very imaginative Adam Clarke who loves craft, technology, coding, and bringing people of all ages together to make bonkers bots. He was recently shortlisted for the Tate Britain I K Prize for exceptional talent in the digital industry, he has over 20 years experience of engaging people in creative digital practice. 
+The Tetley
+Hunslet Rd 
+LS10 1JQ 
+United Kingdom 
+Friday, April 11, 2014 from 10:00 AM to 4:00 PM (BST)
