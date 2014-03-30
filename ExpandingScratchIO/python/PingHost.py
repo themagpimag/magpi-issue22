@@ -27,12 +27,7 @@ class Ping(GenericDevice):
 
   #-----------------------------
 
-  def read(self,channelId):
-
-    # Check if this is a valid input channelId
-    channelNumber = self.validInputChannel(channelId)
-    if channelNumber == -1:
-      return None
+  def read(self,channelNumber):
 
     # Setup the ping command to run once
     ping = subprocess.Popen(
@@ -68,7 +63,7 @@ class Ping(GenericDevice):
         avgRoundTrip = float(values[2])
 
     # Send the value back to Scratch
-    self.updateSensor(channelId,avgRoundTrip)
+    self.updateSensor(channelNumber,avgRoundTrip)
 
     # Since there might be a significant delay, send Scratch a trigger message.
-    self.broadcastTrigger(channelId) 
+    self.broadcastTrigger(channelNumber) 
