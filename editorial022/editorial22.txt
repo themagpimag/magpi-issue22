@@ -1,0 +1,13 @@
+Welcome to issue 22 of The MagPi magazine.
+
+We kick off this month’s issue with an article on astronomical tracking.  Nathan and Nicholas introduce their amazing project, the ‘Reflective Solar Tracker’, a solar cell with the brains of a Raspberry Pi, capable of chasing the sun to improve energy capture by up to 140%!
+
+Andy Baker returns following his successful quad-copter series and this time he is featuring his intelligent night light.  Andy describes building this project to reassure his son at night and banish those ‘under-bed monsters’ and is a great mix of both the PiBow and PiGlow add on-boards.  .
+
+We look at the recent successful Kickstarter campaign, the Laika Explorer, a digital Input/Output board for the Raspberry Pi with the genius additions of USB and expansion ports before undertaking in a whistle stop tour through the Rotary encoder.
+
+We welcome back Richard Wenner for his second article for the MagPi, where he continues his tutorial on using SQL by explaining how to insert and view stored data.  We have more upcoming Raspberry Pi events from around the world and more book reviews to sink your teeth into.
+
+To finish up, we go out with a bang with three great articles on Debian Packaging, Wyliodrin and Scratch Input/Output devices.  What more Raspberry Pi themed goodness could you possibly want?
+
+To follow our progress why not like us on Facebook at http://www.facebook.com/MagPiMagazine to keep up to date and give us more of your valued feedback.
