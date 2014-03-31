@@ -21,7 +21,7 @@
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
         <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
-        <COLOR NAME="Theme" RGB="#bca400" Spot="0" Register="0"/>
+        <COLOR NAME="Theme" RGB="#d0b800" Spot="0" Register="0"/>
         <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
@@ -338,85 +338,85 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347091674805" YPOS="1988.53546382874" WIDTH="538.588317871094" HEIGHT="580.441650390625" RADRECT="5.66929133858268" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="5.66929133858268" BEXTRA="5.66929133858268" REXTRA="5.66929133858268" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 532.919 0 532.919 0 532.919 0 536.05 0 538.588 5.66929 538.588 2.53823 538.588 5.66929 538.588 5.66929 538.588 574.772 538.588 574.772 538.588 574.772 538.588 577.903 532.919 580.442 536.05 580.442 532.919 580.442 532.919 580.442 5.66929 580.442 5.66929 580.442 5.66929 580.442 2.53823 580.442 0 574.772 0 577.903 0 574.772 0 574.772 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="-8.99809 -14.9881 -8.99809 -14.9881 547.619 -14.9881 547.619 -14.9881 547.619 -14.9881 550.925 -14.9881 553.604 -9.02583 553.604 -12.3187 553.604 -9.02583 553.604 -9.02583 553.604 589.49 553.604 589.49 553.604 589.49 553.604 592.783 547.619 595.453 550.925 595.453 547.619 595.453 547.619 595.453 -8.99809 595.453 -8.99809 595.453 -8.99809 595.453 -12.3036 595.453 -14.9832 589.49 -14.9832 592.783 -14.9832 589.49 -14.9832 589.49 -14.9832 -9.02583 -14.9832 -9.02583 -14.9832 -9.02583 -14.9832 -12.3187 -8.99809 -14.9881 -12.3036 -14.9881 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FCOLOR="White" FSHADE="100" CH="import time, subprocess, threading, datetime, logging"/>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347091674805" YPOS="1988.53546382874" WIDTH="538.588317871094" HEIGHT="580.441650390625" RADRECT="5.66929133858268" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" TXTFILL="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="30" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="5.66929133858268" BEXTRA="5.66929133858268" REXTRA="5.66929133858268" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 532.919 0 532.919 0 532.919 0 536.05 0 538.588 5.66929 538.588 2.53823 538.588 5.66929 538.588 5.66929 538.588 574.772 538.588 574.772 538.588 574.772 538.588 577.903 532.919 580.442 536.05 580.442 532.919 580.442 532.919 580.442 5.66929 580.442 5.66929 580.442 5.66929 580.442 2.53823 580.442 0 574.772 0 577.903 0 574.772 0 574.772 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="-8.99809 -14.9881 -8.99809 -14.9881 547.619 -14.9881 547.619 -14.9881 547.619 -14.9881 550.925 -14.9881 553.604 -9.02583 553.604 -12.3187 553.604 -9.02583 553.604 -9.02583 553.604 589.49 553.604 589.49 553.604 589.49 553.604 592.783 547.619 595.453 550.925 595.453 547.619 595.453 547.619 595.453 -8.99809 595.453 -8.99809 595.453 -8.99809 595.453 -12.3036 595.453 -14.9832 589.49 -14.9832 592.783 -14.9832 589.49 -14.9832 589.49 -14.9832 -9.02583 -14.9832 -9.02583 -14.9832 -9.02583 -14.9832 -12.3187 -8.99809 -14.9881 -12.3036 -14.9881 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="import time, subprocess, threading, datetime, logging"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="import RPi.GPIO as GPIO"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="import RPi.GPIO as GPIO"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="import numpy as np"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="import numpy as np"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="from Adafruit_ADS1x15 import ADS1x15"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="# GPIO setup would go here"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="from Adafruit_ADS1x15 import ADS1x15"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="#Returns the 3 letter month abbreviation of current month"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="def getMonth():"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     temp = subprocess.Popen([&quot;date&quot;], stdout=subprocess.PIPE)"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     date_string = temp.communicate()[0]"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     t1, month, t2= date_string.split(' ',2)"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     return month"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="# GPIO setup would go here"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="month_str = getMonth()"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="#Returns the 3 letter month abbreviation of current month"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" filepath = '/home/pi/RST/Months/' + month_str + '.txt'"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="def getMonth():"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" rawData = np.loadtxt(filepath, dtype=(str, float), usecols=(0,2))"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     temp = subprocess.Popen([&quot;date&quot;], stdout=subprocess.PIPE)"/>
             <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     date_string = temp.communicate()[0]"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" motor_const = 0.462 # Units of deg/sec based upon speed of motor"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     t1, month, t2= date_string.split(' ',2)"/>
             <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" angle_deg = np.zeros((len(rawData),1), dtype=(float))"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" motor_dir = np.zeros((len(rawData),1), dtype=(int))"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" motor_time = np.zeros((len(rawData),1), dtype=(int))"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     return month"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" def readDayData():"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="month_str = getMonth()"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="   z = 0"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" filepath = '/home/pi/RST/Months/' + month_str + '.txt'"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="   while(z &lt; len(rawData)):"/>
-            <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     loop_time[z,0] = int(convTimeSec(rawData[z,0]))"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" rawData = np.loadtxt(filepath, dtype=(str, float), usecols=(0,2))"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     if(z == 0):"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" motor_const = 0.462 # Units of deg/sec based upon speed of motor"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="       if(float(rawData[z,1]) &lt;= 90):"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="         angle_deg[z,0] = 90 - float(rawData[z,1])"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" angle_deg = np.zeros((len(rawData),1), dtype=(float))"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="         motor_dir[z,0] = -1"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" motor_dir = np.zeros((len(rawData),1), dtype=(int))"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="         motor_time[z,0] = angle_deg[z,0]/motor_const"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" motor_time = np.zeros((len(rawData),1), dtype=(int))"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="       else:"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="         angle_deg[z,0] = float(rawData[z,1]) - 90"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" def readDayData():"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="         motor_dir[z,0] = 1"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="   z = 0"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="         motor_time[z,0] = angle_deg[z,0]/motor_const"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="   while(z &lt; len(rawData)):"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     else:"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     loop_time[z,0] = int(convTimeSec(rawData[z,0]))"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="       angle_deg[z,0] = float(rawData[z,1]) - float(rawData[z-1,1])"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="       motor_dir[z,0] = 1"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     if(z == 0):"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="       motor_time[z,0] = angle_deg[z,0]/motor_const"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="       if(float(rawData[z,1]) &lt;= 90):"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="          z += 1"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="         angle_deg[z,0] = 90 - float(rawData[z,1])"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="         motor_dir[z,0] = -1"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="         motor_time[z,0] = angle_deg[z,0]/motor_const"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="       else:"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="         angle_deg[z,0] = float(rawData[z,1]) - 90"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="         motor_dir[z,0] = 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="         motor_time[z,0] = angle_deg[z,0]/motor_const"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     else:"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="       angle_deg[z,0] = float(rawData[z,1]) - float(rawData[z-1,1])"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="       motor_dir[z,0] = 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="       motor_time[z,0] = angle_deg[z,0]/motor_const"/>
+            <para PARENT="Code"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="          z += 1"/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -445,63 +445,63 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347057622087" YPOS="2720.1886021404" WIDTH="538.588353579069" HEIGHT="389.311286303834" RADRECT="5.66929133858268" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="5.66929133858268" BEXTRA="5.66929133858268" REXTRA="5.66929133858268" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 532.919 0 532.919 0 532.919 0 536.05 0 538.588 5.66929 538.588 2.53823 538.588 5.66929 538.588 5.66929 538.588 383.642 538.588 383.642 538.588 383.642 538.588 386.773 532.919 389.311 536.05 389.311 532.919 389.311 532.919 389.311 5.66929 389.311 5.66929 389.311 5.66929 389.311 2.53823 389.311 0 383.642 0 386.773 0 383.642 0 383.642 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="-8.99809 -15.0261 -8.99809 -15.0261 547.619 -15.0261 547.619 -15.0261 547.619 -15.0261 550.925 -15.0261 553.604 -8.91992 553.604 -12.2923 553.604 -8.91992 553.604 -8.91992 553.604 398.178 553.604 398.178 553.604 398.178 553.604 401.55 547.619 404.284 550.925 404.284 547.619 404.284 547.619 404.284 -8.99809 404.284 -8.99809 404.284 -8.99809 404.284 -12.3036 404.284 -14.9832 398.178 -14.9832 401.55 -14.9832 398.178 -14.9832 398.178 -14.9832 -8.91992 -14.9832 -8.91992 -14.9832 -8.91992 -14.9832 -12.2923 -8.99809 -15.0261 -12.3036 -15.0261 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" #Returns RST to home position"/>
-            <ITEXT CH=" "/>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347057622087" YPOS="2720.1886021404" WIDTH="538.588353579069" HEIGHT="389.311286303834" RADRECT="5.66929133858268" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" TXTFILL="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="30" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="5.66929133858268" BEXTRA="5.66929133858268" REXTRA="5.66929133858268" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 532.919 0 532.919 0 532.919 0 536.05 0 538.588 5.66929 538.588 2.53823 538.588 5.66929 538.588 5.66929 538.588 383.642 538.588 383.642 538.588 383.642 538.588 386.773 532.919 389.311 536.05 389.311 532.919 389.311 532.919 389.311 5.66929 389.311 5.66929 389.311 5.66929 389.311 2.53823 389.311 0 383.642 0 386.773 0 383.642 0 383.642 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="-8.99809 -15.0261 -8.99809 -15.0261 547.619 -15.0261 547.619 -15.0261 547.619 -15.0261 550.925 -15.0261 553.604 -8.91992 553.604 -12.2923 553.604 -8.91992 553.604 -8.91992 553.604 398.178 553.604 398.178 553.604 398.178 553.604 401.55 547.619 404.284 550.925 404.284 547.619 404.284 547.619 404.284 -8.99809 404.284 -8.99809 404.284 -8.99809 404.284 -12.3036 404.284 -14.9832 398.178 -14.9832 401.55 -14.9832 398.178 -14.9832 398.178 -14.9832 -8.91992 -14.9832 -8.91992 -14.9832 -8.91992 -14.9832 -12.2923 -8.99809 -15.0261 -12.3036 -15.0261 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" #Returns RST to home position"/>
+            <ITEXT FCOLOR="Black" CH=" "/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH=" def returnHome():"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=" def returnHome():"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="   if(GPIO.input(homeSensor) == 0):"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="   if(GPIO.input(homeSensor) == 0):"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     logging.info(timestamp() + ': Returning to home position.')"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     logging.info(timestamp() + ': Returning to home position.')"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     GPIO.output(hbEnable, 1)"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     GPIO.output(hbEnable, 1)"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     GPIO.output(motorLED, 1)"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     GPIO.output(motorLED, 1)"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     GPIO.output(motorCCW, 1)"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     GPIO.output(motorCCW, 1)"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     print &quot;Returning home.&quot;"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     print &quot;Returning home.&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="     ..."/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH=" class DataLoggingThread(threading.Thread):"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="   def __init__(self, threadID, stop_data_log, delay):"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     super(DataLoggingThread, self).__init__(self)"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     self.threadID = threadID"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     self.delay = delay"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="     ..."/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="   def run(self):"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH=" class DataLoggingThread(threading.Thread):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     ADS1015 = 0x00"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="   def __init__(self, threadID, stop_data_log, delay):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     adc = ADS1x15(ic=ADS1015)"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     super(DataLoggingThread, self).__init__(self)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     logging.info(timestamp() + ': Running data logging thread.')"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     self.threadID = threadID"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     while not stop_data_log.isSet():"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     self.delay = delay"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       file = open('/home/pi/RST/Data/' + today + '.txt','a')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       voltage = adc.readADCSingleEnded(1, 4096, 250) / 1000"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="   def run(self):"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       file.write(timestamp() + '\t' + str(voltage))"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     ADS1015 = 0x00"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       current = adc.readADCSingleEnded(2, 4096, 250)/ 1000"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     adc = ADS1x15(ic=ADS1015)"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       file.write('\t' + str(current) + '\n')"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     logging.info(timestamp() + ': Running data logging thread.')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       file.close()"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     while not stop_data_log.isSet():"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="       time.sleep(self.delay)"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       file = open('/home/pi/RST/Data/' + today + '.txt','a')"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="     logging.info(timestamp() + ': Exiting data logging thread.')"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       voltage = adc.readADCSingleEnded(1, 4096, 250) / 1000"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       file.write(timestamp() + '\t' + str(voltage))"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       current = adc.readADCSingleEnded(2, 4096, 250)/ 1000"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       file.write('\t' + str(current) + '\n')"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       file.close()"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="       time.sleep(self.delay)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="     logging.info(timestamp() + ': Exiting data logging thread.')"/>
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
