@@ -119,10 +119,12 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH="Saturday 12th April, 9.30am to 4.30pm (Central European Time: France) "/>
             <para PARENT="Body Text" ALIGN="1"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Where:  "/>
-            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Meyrin Route, 1211 Geneva, Switzerland"/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Route de"/>
+            <ITEXT FONT="Nimbus Sans L Regular Condensed" FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" CH=" Meyrin"/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH=", 1211 Geneva, Switzerland"/>
             <para PARENT="Body Text" ALIGN="1"/>
             <para PARENT="Body Text" ALIGN="1"/>
-            <ITEXT CH="Come and discover in the presence of experts. This workshop is Intended for children (from 6yrs), their parents, teachers and all interested members of the public. "/>
+            <ITEXT CH="Come and discover in the presence of experts. This workshop is intended for children (from 6yrs), their parents, teachers and all interested members of the public. "/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.eventbrite.fr/e/3914624748"/>
             <trail PARENT="Body Text" ALIGN="1"/>
             <PageItemAttributes/>
