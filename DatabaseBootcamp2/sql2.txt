@@ -1,0 +1,92 @@
+**NOTE I HAVE STRIPPED THE SQL COMMANDS FROM THIS TEXT AS THEY SHOULD BE ADDED AS TEXT BOXES**
+
+In the article entitled DATABASE BOOTCAMP, way back in issue 8, on pages 26, 27 and 28, I introduced you to (what I think) is the language most suitable for learning on computers and one rarely offered, the Stuctured Query Language or SQL.
+
+I showed you how to install MySQL, until now the most popular database available and how to view databases, how to view data, how to create a database and how to create a table.
+
+I promised you that the next time we would be looking at inserting data into a pre-populated table and how to sort and search by using logical expressions. I suggest that you read this previous article once more in order to refresh your memory.
+
+In this issue I'll introduce you to this essential next step. In the earlier article we created a table named birdtable and than used the command DESCRIBE birdtable to reveal the description of this table:
+
+I'll explain this table in conjunction with the next command, to shows you how to insert data:
+
+So let's now examine the INSERT INTO command that can be entered on a single line but it has been laid out here for more clarity. It should be clear to see if you if you execute a SELECT that the table called birdtable now has a row (or record) containing:
+
+Fred in first_name
+Epping in town
+1 9571 225 in dob (date of birth)
+ie 1 6th October 1 957 and
+3 goes into birds
+
+Note the way data is entered. Text is surrounded by quotation marks, the date is entered in the yyyymmdd format although you could change this but for the moment we will use this format. The numbers (integers) are entered directly as numbers. Each value is separated by a comma. Also note that we put a semicolon (;) at the end of the command. This is what the table was programmed to accept in the CREATE TABLE command in issue 8.
+
+Comparing the SQL command to the list of data entered to the table of columns may leave you confused: what is the ID column for and why is it not populated? I'm glad you asked!
+
+Suffice it to say that we create a column "id" that will automatically increment each time a new entry is added to the table. This will result in the first row in the table having an id = 1 , the second row id = 2, the third row id = 3, and so on.
+
+The column "id" is not something that we need to worry about after we create the table, as it is all automatically calculated within MySQL.
+
+Try adding a few more lines of data of your own. Top-tip: it is quicker to press the up arrow key in order to recall and edit the previous line and press enter again. This saves typing the whole line, particularly as the rest of the command remains unchanged.
+
+Also note that MySQL confirms each entry with a line about the number of rows affected.
+
+Confirm your table contains the values you have added by entering:
+
+Two useful database functions are sorting and searching. Let's try some examples.
+
+Viewing the data in a sorted order by entering:
+
+To see everything sorted by first_name:
+
+To see the same list but this time by the descending number of birds.
+
+Viewing the data - searching
+
+In the SELECT FROM command we used the Asterisk (*) as a wild card meaning all records or a substitute for zero or more characters in a record. There are two other wild cards that we can use: the percent (%) symbol and the underscore (_). Where you can only use the asteriks as a wildcard (or truncation) in a full text search, the % (match zero or more characters) and _ (match exactly one character) are only applicable in LIKE-queries.
+
+The LIKE keyword tells MySQL that the named column must match the given pattern. In a database with long text string for instance, we could write SELECT text_string FROM database_name WHERE text_string LIKE %Raspberry Pi%;
+
+We will touch on the LIKE command a little bit later.
+
+We'll try these wildcards in the database by entering:
+
+To see everything where the name is Fred
+
+To catch many options (if they existed): Frad Frbd Frcd Frdd Fred Frfd Frzd etc.
+
+The underscore limits your search to just that character!
+
+All first names with an r in them.
+
+All records with more than three birds will show.
+
+Logical words in SQL commands
+
+Two logical words that can be included in SQL commands are AND and OR. AND means that both conditions of a statement must be met and OR insists that either one or the other condition must be met.
+
+Try commands like:
+To find names with the letter r in them AND birds greater than 3.
+
+OR means either condition needs to apply. Try commands like:
+
+To find Freds OR entries with birds less than 3.
+
+All this is nice but how about being more selective in choosing our parameters?
+
+In every example above we have printed out all of the fields for each selected record. We can be more selective by typing:-
+
+Notice here how the ORDER BY option can be added to build even smarter SQL commands and to retrieve the data in the order we want.
+
+Conclusion
+
+There is a lot to be gained by testing these commands on your Pi. Working in text mode as we have been doing in this article is a rapid way of learning, testing, building and repairing databases as well as being a fundamental computing skill.
+
+MySQL has always had a rather steep learning curve when you want to go from straight forward to complex SQL.
+
+We are dealing with databases and can not afford to make mistakes. This adds to the pressure and manipulating these databases should therefore always be done on a copy, away from the real thing until we feel secure in doing what we want to do.
+
+There are many good books on the market that deal with SQL databases. One that comes to mind is the excellent work of Kevin Yank. Kevin has published a number of books through the SitePoint people. His line of approaching SQLalmost makes the experience a gradual stepping up to the rank of intermediate SQL professional.
+
+His book is entitled: "Teach yourself PHP & MySQL"
+
+The World Wide Web is also a good source of MySQL teachings and many of these texts will help you in your efforts to conquer the SQL database.
