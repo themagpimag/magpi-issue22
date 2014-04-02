@@ -273,7 +273,7 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Create a BasicDevice.py file in the $HOME/user-devices directory.  Then append to this file,"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This is the most basic example, which has only one input channel.  All device classes must inherit from GenericDevice, either directly or via one of the other base classes.  The constructor of the class must contain the four default arguments, the device name, a pointer to the ScratchIO object and a list of connections associated with the device.  Other arguments can be passed to the constructor after the default arguments.  The other thing to note about this constructor is that is that the in single channel number is appended to the self.inputChannels list.  This list and the self.outputChannel list are defined in the GenericDevice base class.  Therefore the derived class should append to the lists.  To use this class in RpiScratch, create an configuration file that contains:"/>
+            <ITEXT CH="This is the most basic example, which has only one input channel.  All device classes must inherit from GenericDevice, either directly or via one of the other base classes.  The constructor of the class must contain the four default arguments, the device name, a pointer to the ScratchIO object and a list of connections associated with the device.  Other arguments can be passed to the constructor after the default arguments.  The other thing to note about this constructor is that is that the in single channel number is appended to the self.inputChannels list.  This list and the self.outputChannel list are defined in the GenericDevice base class.  Therefore the derived class should append to the lists.  To use this class in RpiScratch, create a test.cfg configuration file that contains:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The user defined device class is imported, instantiated and associated with the name test.  The default arguments are automatically passed to the constructor of the BasicDevice class.  Since the connection is not used in the example device class, any dummy value can be assigned to test.  To use this class create a Scratch program that broadcasts config, read and write messages:"/>
@@ -282,7 +282,7 @@
             <ITEXT CH="Then enable the remote sensor connections, by right clicking on the &quot;sensor value&quot; text at the bottom of the &quot;Sensing&quot; tool palette.  (When the current version of Scratch packaged with Raspbian starts, it has clicked by remote sensor connections are not enabled.  To enable them, disable and then re-enable them.)  Now start RpiScratch, using the configuration file."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" RpiScratch test.cfg"/>
+            <ITEXT CH=" RpiScratchIO test.cfg"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Then try clicking on the r, w, c or v keys.  The sensor value from the device will always be zero.  Calling the read, write and config functions will cause warning messages to be printed on the screen.  These warning messages are printed by the base class versions fo the read, write and config functions.  To implement these functions such that Scratch calls them, the functions should have the same form as those in the GenericDevice class.  This will override the base class functions."/>
