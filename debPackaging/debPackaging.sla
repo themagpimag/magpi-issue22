@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.3">
-    <DOCUMENT ANZPAGES="5" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="1" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="5" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -225,26 +225,27 @@
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="This tutorial provides a quick-start set of instructions.  For further reading, try consulting the official Debian documentation:"/>
-            <para PARENT="Body text"/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="https://wiki.debian.org/Packaging"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="scripts and other architecture-independent packages (including daemons, which are scripts run at system startup binaries from compiled languages like C (including shared libraries)"/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH=" https://wiki.debian.org/Packaging"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=".  The examples given in this tutorial cover:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In each case the key to the process is to"/>
+            <ITEXT CH="• scripts and other architecture-independent packages (including daemons, which are scripts run at system startup)"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="• binaries from compiled languages like C (including shared libraries)"/>
+            <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="In each case the key to the process is to:"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="create a debian directory in the top-level directory of your software tree, containing data to control the package construction process"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="set up a Makefile in the same place which follows certain conventions for installation targets"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="1. create a debian directory in the top-level directory of your software tree, containing data to control the package construction process"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="2. set up a Makefile in the same place which follows certain conventions for installation targets"/>
+            <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The rest of this section describes these steps; in the next section we'll give example code."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="4.1. Creating the debian Directory"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="Creating the debian Directory"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The packaging file tree can be seeded using the dh_make program like this:"/>
             <para PARENT="Body text"/>
@@ -271,8 +272,8 @@
             <ITEXT CH="There is also a file called rules which follows Makefile syntax and which can be used to modify the details of the packaging process. In recent configurations this file uses a lot of implicit rules and doesn't need any changes."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="4.2. Conventions for the Makefile"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="Conventions for the Makefile"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Having created our debian file tree we then need to create (or adapt) a top-level Makefile so that it:"/>
             <para PARENT="Body text"/>
@@ -296,8 +297,8 @@
             <ITEXT CH="It is also convenient to wrap up the commands relating to packaging in Makefile targets; the next section describes these commands."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="4.3. Creating .deb and .dsc Files"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="Creating .deb and .dsc Files"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="As noted earlier, the outputs from the packaging process are files of two types:"/>
             <para PARENT="Body text"/>
@@ -324,10 +325,10 @@
             <ITEXT CH="We use the source-only build when we're targetting an Ubuntu PPA (see above) — these only accept source packages, building a .deb of their own from the source."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="5. Case Studies"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="5.1. SimBaMon and BlinkIP"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="Examples"/>
+            <para PARENT="Body title"/>
+            <ITEXT CH="SimBaMon and BlinkIP"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="This section gives package file and Makefile code examples for the script programs described in our pages on the SimBaMon simple battery monitor and the Blink my IP daemons."/>
             <para PARENT="Body text"/>
@@ -341,22 +342,22 @@
             <ITEXT CH="The control file (the basic details of the package, its version and dependencies):"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Source: simbamond"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Section: admin"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Priority: optional"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Maintainer: Hamish Cunningham"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="http://gate.ac.uk/hamish/  &lt;hamish@gate.ac.uk&gt;"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Build-Depends: debhelper (&gt;= 8.0.0), devscripts,"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="gawk"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Standards-Version: 3.9.3"/>
-            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="9" CH="Source: simbamond"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="Section: admin"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="Priority: optional"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="Maintainer: Hamish Cunningham"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="http://gate.ac.uk/hamish/  &lt;hamish@gate.ac.uk&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="Build-Depends: debhelper (&gt;= 8.0.0), devscripts,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="gawk"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="Standards-Version: 3.9.3"/>
+            <para PARENT="Code"/>
             <ITEXT CH="Homepage:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="http://pi.gate.ac.uk/pages/mopi.html#simbamon"/>
