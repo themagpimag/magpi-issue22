@@ -301,42 +301,117 @@
             <ITEXT FONT="Monaco Regular" CH="ScratchIO"/>
             <ITEXT CH=" object and a list of connections associated with the device.  Other arguments can be passed to the constructor after the default arguments.  The other thing to note about this constructor is that the single input channel number is appended to the "/>
             <ITEXT FONT="Monaco Regular" CH="self.inputChannels"/>
-            <ITEXT CH=" list.  This list and the self.outputChannel list are defined in the GenericDevice base class.  Therefore the derived class should append to the lists.  To use this class in RpiScratchIO, create a test.cfg configuration file that contains:"/>
+            <ITEXT CH=" list.  This list and the "/>
+            <ITEXT FONT="Monaco Regular" CH="self.outputChannel"/>
+            <ITEXT CH=" list are defined in the "/>
+            <ITEXT FONT="Monaco Regular" CH="GenericDevice"/>
+            <ITEXT CH=" base class.  Therefore the derived class should append to the lists.  To use the example "/>
+            <ITEXT FONT="Monaco Regular" CH="BasicDevice"/>
+            <ITEXT CH=" class in RpiScratchIO, create a "/>
+            <ITEXT FONT="Monaco Regular" CH="test.cfg"/>
+            <ITEXT CH=" configuration file that contains:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The user defined device class is imported, instantiated and associated with the name test.  The default arguments are automatically passed to the constructor of the BasicDevice class.  Since the connection is not used in the example device class, any dummy value can be assigned to test.  To use this class create a Scratch program that broadcasts config, read and write messages:"/>
+            <ITEXT CH="The user defined device class is imported, instantiated and associated with the name "/>
+            <ITEXT FONT="Monaco Regular" CH="test"/>
+            <ITEXT CH=".  The default arguments are automatically passed to the constructor of the BasicDevice class.  Since the device connections are not used in the example device class, any dummy value can be assigned to test.  To use this class, create a Scratch program that broadcasts config, read and write messages:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Then enable the remote sensor connections, by right clicking on the &quot;sensor value&quot; text at the bottom of the &quot;Sensing&quot; tool palette.  (When the current version of Scratch packaged with Raspbian starts, it has clicked by remote sensor connections are not enabled.  To enable them, disable and then re-enable them.)  Now start RpiScratch, using the configuration file."/>
+            <ITEXT CH="Then enable the remote sensor connections, by right clicking on the &quot;sensor value&quot; text at the bottom of the &quot;Sensing&quot; tool palette.  (When the current Raspbian version of Scratch starts,  remote sensor connections are not enabled.  To enable them, disable and then re-enable them.  Refer to the article in Issue 20 for more information.)  Now start RpiScratchIO, using the configuration file."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" RpiScratchIO test.cfg"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Then try clicking on the r, w, c or v keys.  The sensor value from the device will always be zero.  Calling the read, write and config functions will cause warning messages to be printed on the screen.  These warning messages are printed by the base class versions fo the read, write and config functions.  To implement these functions such that Scratch calls them, the functions should have the same form as those in the GenericDevice class.  This will override the base class functions."/>
+            <ITEXT CH="Then write a program to test the test sensor value and send read, write and config commands.  In this example, the sensor value from the device will always be zero.  Calling the "/>
+            <ITEXT FONT="Monaco Regular" CH="read"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="write"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="config"/>
+            <ITEXT CH=" functions will cause warning messages to be printed on the screen.  These warning messages are printed by the base class versions of the config, read, and write functions.  These functions can be overridden be implementing functions with the same input arguments as those given in "/>
+            <ITEXT FONT="Monaco Regular" CH="GenericDevice"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Pinging a computer"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The ping command was discussed in Issue 21 of The MagPi.  ping can be used as an I/O device with one input channel, where the input channel is a selected result from the ping command.  The steps to create a device class that uses a ping command are the same as for the previous example.  First, create a file called PingHost.py in the $HOME/user-devices directory,"/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" command was discussed in Issue 21 of The MagPi.  "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" can be used as an I/O device with one input channel, where the input channel is a selected result from the "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" command.  The steps to create a device class that uses a "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" command are the same as for the previous example.  First, create a file called "/>
+            <ITEXT FONT="Monaco Regular" CH="PingHost.py"/>
+            <ITEXT CH=" in the "/>
+            <ITEXT FONT="Monaco Regular" CH="$HOME/user-devices"/>
+            <ITEXT CH=" directory,"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The next step is to create a configuration file and a Scratch program to use it.  Then launch RpiScratchIO, to read the new configuration file."/>
+            <ITEXT CH="The next step is to create a configuration file to associate the class with Scratch.  Then launch RpiScratchIO, to read the new configuration file.  Once RpiScratchIO is running, the "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" sensor will be available in Scratch."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Then try to press the spacebar.  By default, the Ping class uses the localhost address.  If b is pressed, then a badhost name is used.  This will produce an error sensor value of -2.  In the case of this example program, the 192.168.2.1 address was the router but was firewalled.  This caused a sensor error value of -1.  In the case of the localhost, the round trip time reported by ping is quite quick.  Try swapping the IP addresses for some other machine on the network."/>
+            <ITEXT CH="In the configuration file, the connection passed to the "/>
+            <ITEXT FONT="Monaco Regular" CH="Ping"/>
+            <ITEXT CH=" class is the default computer to "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In this example, the ping command waits until a reply is received or the ping command reaches the timeout value.  This means that ping can be a bit slow to respond.  Rather than polling the output of the ping command, the Ping device sends a &quot;trig&quot; message back to Scratch to indicate a new sensor value is available.  This means that Scratch is idle until Ping has finished.  "/>
+            <ITEXT CH="In the example Scratch program, a sprite with two costumes was created, where  one of these costumes was named "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" and the other was named "/>
+            <ITEXT FONT="Monaco Regular" CH="idle"/>
+            <ITEXT CH=".  Then broadcast commands were added to test each of the functions and the response of the "/>
+            <ITEXT FONT="Monaco Regular" CH="Ping"/>
+            <ITEXT CH=" device.  "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The input and output channels of a device class are automatically reported to Scratch as sensors, after each device class declared in the configuration file is instantiated.  Several commands can be passed to the config function, by separating them by commas. "/>
             <para PARENT="Body text"/>
+            <ITEXT CH="Try pressing the spacebar.  If the "/>
+            <ITEXT FONT="Monaco Regular" CH="b"/>
+            <ITEXT CH=" key is pressed, then a "/>
+            <ITEXT FONT="Monaco Regular" CH="badhost"/>
+            <ITEXT CH=" name is used.  This will produce a sensor error value of "/>
+            <ITEXT FONT="Monaco Regular" CH="-2"/>
+            <ITEXT CH=".  In the case of this example program, the "/>
+            <ITEXT FONT="Monaco Regular" CH="192.168.2.1"/>
+            <ITEXT CH=" address was a router that was firewalled.  This caused a sensor error value of "/>
+            <ITEXT FONT="Monaco Regular" CH="-1"/>
+            <ITEXT CH=".  In the case of the "/>
+            <ITEXT FONT="Monaco Regular" CH="localhost"/>
+            <ITEXT CH=", the round trip time reported by ping is quite quick.  Try swapping the IP addresses for some other machine on the network."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="When the "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" command runs it waits until a reply is received or it reaches the timeout value.  This means that "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" can be a bit slow to respond, if it takes a long time for the network packet to return.  Rather than polling the output of the "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" command, the "/>
+            <ITEXT FONT="Monaco Regular" CH="Ping"/>
+            <ITEXT CH=" device sends a "/>
+            <ITEXT FONT="Monaco Regular" CH="trig"/>
+            <ITEXT CH=" message back to Scratch to indicate a new sensor value is available.  This means that Scratch is idle until "/>
+            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT CH=" has finished. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" "/>
             <para PARENT="Body text"/>
             <ITEXT CH="Next time"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The next tutorial will include some examples of writing output results and interfacing with hardware devices.  Until then, try inheriting from the SpiDevice base class and connect to an SPI device.  There is an example of how to do this in the SpiDevices.py file in the RpiScratchIO package."/>
+            <ITEXT CH="The next tutorial will include some examples of writing output results and interfacing with hardware devices.  Until then, try inheriting from the "/>
+            <ITEXT FONT="Monaco Regular" CH="SpiDevice"/>
+            <ITEXT CH=" base class and connect to an SPI device.  There is an example of how to do this in the "/>
+            <ITEXT FONT="Monaco Regular" CH="SpiDevices.py"/>
+            <ITEXT CH=" file in the RpiScratchIO package."/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -420,7 +495,7 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="60" BACKITEM="39">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="59" BACKITEM="39">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="1384.04724409449" WIDTH="538.588346456693" HEIGHT="177" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="2" TEXTFLOW="1" TEXTFLOW2="1" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 177 538.588 177 538.588 177 538.588 177 0 177 0 177 0 177 0 177 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 177 538.588 177 538.588 177 538.588 177 0 177 0 177 0 177 0 177 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -487,7 +562,7 @@
             <para PARENT="Code"/>
             <ITEXT CH="     if nargs == 0:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="       print(&quot;WARNING: \&quot;config\&quot; in device %s expects at least one argument.  No arguments were given&quot; % self.deviceName)"/>
+            <ITEXT CH="       print(&quot;WARNING: \&quot;config\&quot; in device %s expects at least one argument.&quot; % self.deviceName)"/>
             <para PARENT="Code"/>
             <ITEXT CH="       return None"/>
             <para PARENT="Code"/>
@@ -578,14 +653,10 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086614173" YPOS="2721.49606299213" WIDTH="538.588346456693" HEIGHT="728.999999999996" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 729 538.588 729 538.588 729 538.588 729 0 729 0 729 0 729 0 729 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 729 538.588 729 538.588 729 538.588 729 0 729 0 729 0 729 0 729 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="65" BACKITEM="48">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086614173" YPOS="2721.49606299213" WIDTH="538.588346456693" HEIGHT="728.999999999996" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 729 538.588 729 538.588 729 538.588 729 0 729 0 729 0 729 0 729 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 729 538.588 729 538.588 729 538.588 729 0 729 0 729 0 729 0 729 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="64" BACKITEM="48">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2025.49606299213" WIDTH="256.026653543306" HEIGHT="280" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.8" LOCALSCY="0.8" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="screenshots/test.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.027 0 256.027 0 256.027 0 256.027 0 256.027 280 256.027 280 256.027 280 256.027 280 0 280 0 280 0 280 0 280 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.027 0 256.027 0 256.027 0 256.027 0 256.027 280 256.027 280 256.027 280 256.027 280 0 280 0 280 0 280 0 280 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="2" XPOS="356.37374015748" YPOS="3810.49606299213" WIDTH="310.561692913387" HEIGHT="86" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.8" LOCALSCY="0.8" LOCALX="69.3447834645681" LOCALY="-3.74015748031524" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="screenshots/pinging.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 310.562 0 310.562 0 310.562 0 310.562 0 310.562 86 310.562 86 310.562 86 310.562 86 0 86 0 86 0 86 0 86 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 310.562 0 310.562 0 310.562 0 310.562 0 310.562 86 310.562 86 310.562 86 310.562 86 0 86 0 86 0 86 0 86 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -667,6 +738,10 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="463" WIDTH="205.652913385827" HEIGHT="14" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://pypi.python.org/pypi/RpiScratchIO/" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text68" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 205.653 0 205.653 0 205.653 0 205.653 0 205.653 14 205.653 14 205.653 14 205.653 14 0 14 0 14 0 14 0 14 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 205.653 0 205.653 0 205.653 0 205.653 0 205.653 14 205.653 14 205.653 14 205.653 14 0 14 0 14 0 14 0 14 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="4" PTYPE="2" XPOS="356.37374015748" YPOS="3850.18110236221" WIDTH="310.561692913387" HEIGHT="86" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.8" LOCALSCY="0.8" LOCALX="69.3447834645681" LOCALY="-3.74015748031524" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="screenshots/pinging.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 310.562 0 310.562 0 310.562 0 310.562 0 310.562 86 310.562 86 310.562 86 310.562 86 0 86 0 86 0 86 0 86 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 310.562 0 310.562 0 310.562 0 310.562 0 310.562 86 310.562 86 310.562 86 310.562 86 0 86 0 86 0 86 0 86 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
