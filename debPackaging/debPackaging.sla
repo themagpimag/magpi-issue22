@@ -26,31 +26,40 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <LAYERS NUMMER="0" LEVEL="5" NAME="Header_and_footer" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="8" LEVEL="6" NAME="Page_Number_Right" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#5500ff"/>
         <LAYERS NUMMER="7" LEVEL="7" NAME="Page_Number_Left" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#55557f"/>
-        <LAYERS NUMMER="2" LEVEL="9" NAME="Level_Of_Difficulty" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
-        <LAYERS NUMMER="3" LEVEL="10" NAME="Author_Information" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff3856"/>
-        <LAYERS NUMMER="4" LEVEL="11" NAME="Header_Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00aaff"/>
-        <LAYERS NUMMER="5" LEVEL="12" NAME="Non_Header_Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff00ff"/>
-        <LAYERS NUMMER="6" LEVEL="13" NAME="Article_Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffff00"/>
+        <LAYERS NUMMER="2" LEVEL="8" NAME="Level_Of_Difficulty" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
+        <LAYERS NUMMER="3" LEVEL="9" NAME="Author_Information" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff3856"/>
+        <LAYERS NUMMER="4" LEVEL="10" NAME="Header_Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00aaff"/>
+        <LAYERS NUMMER="5" LEVEL="11" NAME="Non_Header_Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff00ff"/>
+        <LAYERS NUMMER="6" LEVEL="12" NAME="Article_Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffff00"/>
         <LAYERS NUMMER="11" LEVEL="2" NAME="Effect : Header_Fade 002" SICHTBAR="0" DRUCKEN="0" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
-        <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
+        <LAYERS NUMMER="13" LEVEL="13" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <LPI Color="" Frequency="0" Angle="0" SpotFunction="0"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
+            <Subset Name="Monaco Regular"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
             <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
@@ -148,7 +157,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="116.373561872328" YPOS="308.109881889764" WIDTH="236.417952755906" HEIGHT="16.7244094488189" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.04567289830735" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="15" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="12.4007818281801" gYpos="9.48980314960596" gWidth="289.12478516815" gHeight="35.704" ALIGN="1" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : INTERMEDIATE"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : ADVANCED"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -226,8 +235,10 @@
             <para PARENT="Body text"/>
             <ITEXT CH="This tutorial provides a quick-start set of instructions.  For further reading, try consulting the official Debian documentation:"/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH=" https://wiki.debian.org/Packaging"/>
-            <ITEXT FCOLOR="Black" FSHADE="100" CH=".  The examples given in this tutorial cover:"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH=".  "/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FCOLOR="Black" FSHADE="100" CH="The examples given in this tutorial cover:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="• scripts and other architecture-independent packages (including daemons, which are scripts run at system startup)"/>
             <para PARENT="Body text" ALIGN="0"/>
@@ -236,54 +247,179 @@
             <para PARENT="Body text"/>
             <ITEXT CH="In each case the key to the process is to:"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="1. create a debian directory in the top-level directory of your software tree, containing data to control the package construction process"/>
+            <ITEXT CH="1. create a "/>
+            <ITEXT FONT="Monaco Regular" CH="debian"/>
+            <ITEXT CH=" directory in the top-level directory of your software tree, containing data to control the package construction process"/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="2. set up a Makefile in the same place which follows certain conventions for installation targets"/>
+            <ITEXT CH="2. set up a "/>
+            <ITEXT FONT="Monaco Regular" CH="Makefile"/>
+            <ITEXT CH=" in the "/>
+            <ITEXT FONT="Monaco Regular" CH="debian"/>
+            <ITEXT CH=" directory that follows certain conventions for installation targets"/>
             <para PARENT="Body text" ALIGN="0"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The rest of this section describes these steps; in the next section we'll give example code."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Creating the debian Directory"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The packaging file tree can be seeded using the dh_make program like this:"/>
+            <ITEXT CH="Debian packages are archives that can be created using low-level commands.  To start building Debian packages, it is easier to use a helper tool such as dh_make.  To install the dh_make tool, type:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" sudo apt-get install devscripts debhelper"/>
+            <ITEXT CH=" sudo apt-get install -y devscripts debhelper \"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" dh-make"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This will install several dependencies aswell as dh_make.   The dh_make command converts source archives into Debian source packages."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="A packaging file tree can then be created by, "/>
+            <para PARENT="Body text"/>
             <para PARENT="Code"/>
             <ITEXT CH=" dh_make -p=package-name_1.0 --native"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This creates a set of files in the debian directory, many of which are examples or boilerplate which can be ignored. The ones of the set that need editing in our cases are:"/>
+            <ITEXT CH="The command then asks what type of  package should be created.  Select a single binary and then press enter to confirm this choice.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="control: contains the basic details of the package, its version and dependencies"/>
+            <ITEXT FONTSIZE="9" CH=" Maintainer name  : unknown"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Email-Address    : pi@raspberrypi "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Date             : Fri, 04 Apr 2014 22:17:38"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Package Name     : package-name"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Version          : 1.0"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" License          : gpl3"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Type of Package  : Single"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Hit &lt;enter&gt; to confirm: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Currently there is no top level Makefile. This"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" may require additional tuning."/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Done. Please edit the files in the debian/"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" subdirectory now. You should also"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" check that the package-name Makefiles install"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" into $DESTDIR and not in / ."/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="changelog: describes the changes present in each version"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="copyright: describes the licence — this should be an open source licence"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="docs: lists documentation files, e.g. a man page or a README for the software itself"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="README: describes details of the packaging of the software, not the software itself"/>
+            <ITEXT CH="This will create a "/>
+            <ITEXT FONT="Monaco Regular" CH="debian"/>
+            <ITEXT CH=" directory in the present working  directory that contains a series of example files:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="There is also a file called rules which follows Makefile syntax and which can be used to modify the details of the packaging process. In recent configurations this file uses a lot of implicit rules and doesn't need any changes."/>
+            <ITEXT CH=" debian/watch.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/changelog"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/compat"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/emacsen-remove.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/init.d.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/README"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/postinst.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/manpage.1.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/menu.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/copyright"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/package-name.default.ex"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/control"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/manpage.sgml.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/emacsen-startup.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/rules"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/prerm.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/manpage.xml.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/docs"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/package-name.cron.d.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/source"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/source/format"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/emacsen-install.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/package-name.doc-base.EX"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/preinst.ex"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/README.Debian"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/README.source"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" debian/postrm.ex"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="Many of these files can be ignored.  The important files are:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold" FCOLOR="Black" FSHADE="100" CH="control"/>
+            <ITEXT CH=": contains the basic details of the package, its version and dependencies"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold" CH="changelog"/>
+            <ITEXT CH=": describes the changes present in each version"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold" CH="copyright"/>
+            <ITEXT CH=": describes the licence, which should be an open source licence"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold" CH="docs"/>
+            <ITEXT CH=": lists documentation files, e.g. a "/>
+            <ITEXT FONT="Monaco Regular" CH="man"/>
+            <ITEXT CH=" page or a "/>
+            <ITEXT FONT="Monaco Regular" CH="README"/>
+            <ITEXT CH=" for the software itself"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold" CH="README"/>
+            <ITEXT CH=": describes details of the packaging of the software, not the software itself"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="There is also a file called "/>
+            <ITEXT FONT="FreeSans Bold" CH="rules"/>
+            <ITEXT CH=" that follows the syntax of Makefile and can be used to modify the details of the packaging process.  In recent configurations, this file uses a lot of implicit rules and does not need to be changed."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Conventions for the Makefile"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Having created our debian file tree we then need to create (or adapt) a top-level Makefile so that it:"/>
+            <ITEXT CH="Makefiles a central part of building software on Linux and other operating systems.  The syntax of Makefiles is introduced in Issue 7 of the MagPi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="has a default target (e.g. all) which does any necessary compilation and linking of the software (for scripts this target probably does nothing)"/>
+            <ITEXT CH="Now that the "/>
+            <ITEXT FONT="Monaco Regular" CH="debian"/>
+            <ITEXT CH=" directory has been created, the next step is to create or adapt a top-level Makefile.  This Makefile should have: "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="has an install target which adapts to the setting of a DESTDIR (destination directory) environment variable"/>
+            <ITEXT CH="• a default target, to compile and link any source code.  "/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="• an "/>
+            <ITEXT FONT="Monaco Regular" CH="install"/>
+            <ITEXT CH=" target that copies files with the correct permissions into the destination directory ("/>
+            <ITEXT FONT="Monaco Regular" CH="DESTDIR"/>
+            <ITEXT CH=")."/>
+            <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The second of these is best accomplished using the install program. For example, given a binary called amazing, we can install it to DESTDIR from our Makefile like this:"/>
+            <ITEXT CH="The install target should call the install program, which creates directories or copies a files with specified file permissions.  For example, a binary can be copied into the destination directory by adding"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" install -d -m 755      $(DESTDIR)/usr/bin"/>
@@ -291,22 +427,25 @@
             <ITEXT CH=" install -m 755 amazing $(DESTDIR)/usr/bin"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Here the first command makes sure that the target installation directory (/usr/bin) exists; the second copies the binary file and gives it appropriate permissions for an executable program."/>
+            <ITEXT CH="to the Makefile.  In this example, the first command creates "/>
+            <ITEXT FONT="Monaco Regular" CH="/usr/bin"/>
+            <ITEXT CH=" if it does not exist and the second copies the binary file with the appropriate file permissions for an executable program."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="It is also convenient to wrap up the commands relating to packaging in Makefile targets; the next section describes these commands."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Creating .deb and .dsc Files"/>
+            <ITEXT CH="Creating .deb and .dsc files"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="As noted earlier, the outputs from the packaging process are files of two types:"/>
+            <ITEXT FONTSIZE="11" CH="The outputs from the packaging process are files of two types:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=".deb files contain binary builds of a program, which is all ready to install on a running instance of Raspbian"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=".dsc files contain the source code of a program, ready to be built"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="• "/>
+            <ITEXT FONT="Monaco Regular" CH=".deb"/>
+            <ITEXT CH=" - binary builds of a program that can be directly installed on Raspbian."/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="• "/>
+            <ITEXT FONT="Monaco Regular" CH=".dsc"/>
+            <ITEXT CH=" - source code of a program, ready to be built"/>
+            <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
             <ITEXT CH="We'll create these files using the debuild program. In common with several other packaging commands, debuild uses various helper programs to do its work. One of the disadvantages of this arrangement is that documentation is often spread across several locations. For example, the manual for debuild doesn't describe all of the options that it is parameterised by — some of them are only described by the helper program documentation. A good place to start looking for their meaning is in the documentation for dpkg-buildpackage (which in turn calls a whole team of other helpers)."/>
             <para PARENT="Body text"/>
@@ -641,6 +780,30 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.34708661126" YPOS="3602.17393700811" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="46">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1052.5" WIDTH="256.652913385827" HEIGHT="38" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Magpi Pink" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 38 256.653 38 256.653 38 256.653 38 0 38 0 38 0 38 0 38 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 38 256.653 38 256.653 38 256.653 38 0 38 0 38 0 38 0 38 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1180.05905507953" WIDTH="256.6529134" HEIGHT="28.9409449204702" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Magpi Pink" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 28.9409 256.653 28.9409 256.653 28.9409 256.653 28.9409 0 28.9409 0 28.9409 0 28.9409 0 28.9409 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 28.9409 256.653 28.9409 256.653 28.9409 256.653 28.9409 0 28.9409 0 28.9409 0 28.9409 0 28.9409 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1267.93307080945" WIDTH="256.6529134" HEIGHT="198.066929190549" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Magpi Pink" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 198.067 256.653 198.067 256.653 198.067 256.653 198.067 0 198.067 0 198.067 0 198.067 0 198.067 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 198.067 256.653 198.067 256.653 198.067 256.653 198.067 0 198.067 0 198.067 0 198.067 0 198.067 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1525.51275590551" WIDTH="256.6529134" HEIGHT="161.589606260633" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Magpi Pink" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 161.59 256.653 161.59 256.653 161.59 256.653 161.59 0 161.59 0 161.59 0 161.59 0 161.59 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 161.59 256.653 161.59 256.653 161.59 256.653 161.59 0 161.59 0 161.59 0 161.59 0 161.59 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.282519670867" YPOS="957.449763735432" WIDTH="256.6529134" HEIGHT="215.550236264568" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Magpi Pink" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 215.55 256.653 215.55 256.653 215.55 256.653 215.55 0 215.55 0 215.55 0 215.55 0 215.55 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 215.55 256.653 215.55 256.653 215.55 256.653 215.55 0 215.55 0 215.55 0 215.55 0 215.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34708661126" YPOS="1911.39763773859" WIDTH="256.6529134" HEIGHT="37.6023622614071" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Magpi Pink" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 37.6024 256.653 37.6024 256.653 37.6024 256.653 37.6024 0 37.6024 0 37.6024 0 37.6024 0 37.6024 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 37.6024 256.653 37.6024 256.653 37.6024 256.653 37.6024 0 37.6024 0 37.6024 0 37.6024 0 37.6024 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
