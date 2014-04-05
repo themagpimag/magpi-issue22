@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.3">
-    <DOCUMENT ANZPAGES="5" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="12" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="5" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -266,7 +266,7 @@
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" wget http://webiopi.googlecode.com/files/WebIO"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Pi-0.6.0.tar.gz"/>
+            <ITEXT FONTSIZE="9" CH=" Pi-0.6.0.tar.gz"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" tar xvzf WebIOPi-0.6.0.tar.gz"/>
             <para PARENT="Code"/>
@@ -285,7 +285,9 @@
             <ITEXT FONTSIZE="9" CH=" sudo reboot"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Wait for a minute after rebooting the Raspberry Pi, then in a web browser enter the IP address of the Raspberry Pi followed by the port number of WebIOPi, which is 8000. For me I entered http://192.168.2.15:8000, but your IP address will be different. You can find out the IP address of the Raspberry Pi by entering:"/>
+            <ITEXT CH="Wait for a minute after rebooting the Raspberry Pi, then in a web browser enter the IP address of the Raspberry Pi followed by the port number of WebIOPi, which is 8000. For me I entered "/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://192.168.2.15:8000"/>
+            <ITEXT CH=", but your IP address will be different. You can find out the IP address of the Raspberry Pi by entering:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" hostname -I"/>
@@ -389,7 +391,7 @@
             <ITEXT CH=" garage = /home/pi/garage/python/script.py"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Find the [HTML] line and add the following line:"/>
+            <ITEXT CH="Find the [HTTP] line and add the following line:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" doc-root = /home/pi/garage/html"/>
@@ -405,7 +407,7 @@
             <ITEXT CH=" gpio-post-function = false"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To save the changes ^X answer Y to the question of if you want to save and hit enter to save.  To make the changes we need to reboot the Pi."/>
+            <ITEXT CH="To save the changes ^X answer Y to the question of if you want to save and hit enter to save.  To make the changes we need to reboot the Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo reboot"/>
@@ -414,13 +416,14 @@
             <ITEXT CH="Motion setup"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now we are going to set up motion so you can check the garage door's status and monitor your garage using a webcam. If you're using the Pi Camera instead of a generic webcam, check out this tutorial for setting up motionto work with ithttp://rbnrpi.wordpress.com/project-list/setting-up-wireless-motion-detect-cam/"/>
+            <ITEXT CH="Now we are going to set up motion so you can check the garage door's status and monitor your garage using a webcam. If you're using the Pi Camera instead of a generic webcam, check out this tutorial for setting up motionto work with it "/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://rbnrpi.wordpress.com/project-list/setting-up-wireless-motion-detect-cam/"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="First, we need to give Raspbian the UVC camera support."/>
+            <ITEXT CH="First we need to give Raspbian the UVC camera support."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" sudo apt-get install rpi-updates"/>
+            <ITEXT CH=" sudo apt-get install rpi-update"/>
             <para PARENT="Code"/>
             <ITEXT CH=" sudo rpi-update"/>
             <para PARENT="Code"/>
@@ -437,13 +440,13 @@
             <ITEXT CH=" sudo nano /etc/motion/motion.conf"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Once we are there we need to change a few things.  First we need to change daemon to on so it starts when the Pi boots. To change this, changedaemon off, todaemon on. Next thing we want to change is the resolution. You can leave it at 320 x 240 or change it to something higher - 320x240 is fine for most people. Next changewebcam_localhostontooff. This allows us to view the camera feed from another device instead of just the Raspberry Pi. Now ^X answer Y to the question of if you want to save and hit enter."/>
+            <ITEXT CH="Once we are there we need to change a few things.  First we need to change the daemon to on so it starts when the Raspberry Pi boots. To change this, change daemon off, to daemon on. The next thing we want to change is the resolution. You can leave it at 320 x 240 or change it to something higher - 320x240 is fine for most people. Next, change webcam_localhost on to off. This allows us to view the camera feed from another device instead of just the Raspberry Pi. Now ^X answer Y to the question of if you want to save and hit enter."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Lastly, we need to set up motion to start when the Pi boots."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="sudo nano /etc/default/motion"/>
+            <ITEXT CH=" sudo nano /etc/default/motion"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="In this file change"/>
@@ -458,19 +461,25 @@
             <ITEXT CH=" start_motion_daemon=yes"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now we should reboot the Pi so it makes the changes.sudo rebootNow we have motion set up. Plug in a compatible webcam and it should stream video to your Pi's IP Address followed by:8081"/>
+            <ITEXT CH="Now we should reboot the Pi so it makes the changes."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="sudo reboot"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Now we have motion set up.  Plug in a compatible webcam and it should stream video to your Raspberry Pi's IP Address followed by :8081"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Hardware"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The hardware in this project consists of a relay that converts the voltage on the Raspberry Pi to a signal that opens and closes a garage door. To hookup the relay we need to solder the relay directly to a Perma-Proto PCB and solder all the wires onto the PCB. To make the PCB not short out we will cover the bottom with electrical tape. We will also place a 1N4001 Diode over the relay coil pins to avoid damaging the Pi GPIO pin. This isn't optional if we don't do this it will eventually destroy the Pi!"/>
+            <ITEXT CH="The hardware in this project consists of a relay that converts the voltage on the Raspberry Pi to a signal that opens and closes a garage door.  To hookup the relay we need to solder the relay directly to a Perma-Proto PCB and solder all the wires onto the PCB.  To make the PCB not short out we will cover the bottom with electrical tape. We will also place a 1N4001 Diode over the relay coil pins, to avoid damaging the Raspberry Pi GPIO pin. This is not optional!  If we do not do this it will eventually destroy the Raspberry Pi!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Find a pinout for the relay. Usually they are on the datasheet for the relay. Below is an example of a relay and how to hook it up. The Raspberry Pi will connect to the coil with a diode between the control (red wire) and ground (black wire) pins. The garage door will connect to the normally open pin and relay switch pin (two gray wires)."/>
+            <ITEXT CH="Find a pinout for the relay.  Usually they are on the accompanying datasheet for the relay.  Below is an example of a relay and how to hook it up.  The Raspberry Pi will connect to the coil with a diode between the control (red wire) and ground (black wire) pins. The garage door will connect to the normally open pin and relay switch pin (two grey wires)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Below is an example of where the the relay connects to the garage door. Use a tool such as a screwdriver to press between the screws on the garage door opener. When you press the two that open the garage door, screw the wires attached to the relay onto it."/>
+            <ITEXT CH="Below is an example of where the relay connects to the garage door. Use a tool such as a screwdriver to press between the screws on the garage door opener. When you press the two that open the garage door, screw the wires attached to the relay onto it."/>
             <para PARENT="Body text"/>
             <ITEXT CH="The coil on the relay will connect to Ground and GPIO 17 on the Raspberry Pi using the female jumper wires."/>
             <para PARENT="Body text"/>
@@ -479,34 +488,36 @@
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="1."/>
-            <ITEXT CH="       Cut and strip the two female jumper wires in half.       "/>
+            <ITEXT CH=" Cut and strip the two female jumper wires in half.       "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="2."/>
-            <ITEXT CH="       Solder the relay to the Perma-Proto."/>
+            <ITEXT CH=" Solder the relay to the Perma-Proto."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONT="FreeSans Bold" CH="3. "/>
-            <ITEXT CH="      Now we need to solder the black female jumper wire to the coil on the relay and the red jumper wire to the coil on the relay. After that trim the excess wire on the bottom of the board."/>
+            <ITEXT FONT="FreeSans Bold" CH="3."/>
+            <ITEXT CH=" Now we need to solder the black female jumper wire to the coil on the relay and the red jumper wire to the coil on the relay. After that trim the excess wire on the bottom of the board."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="4."/>
-            <ITEXT CH="       To prevent the Raspberry Pi from crashing, we need to place a 1N4001 diode between the ground and control pins on the relay. The silver band on the diode needs to be connected to the control wire not ground.       "/>
+            <ITEXT CH=" To prevent the Raspberry Pi from crashing, we need to place a 1N4001 diode between the ground and control pins on the relay. The silver band on the diode needs to be connected to the control wire not ground.       "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="5."/>
-            <ITEXT CH="       Solder the wires that connect to the garage door to the normally open pin and ground on the relay. Again trim the excess leads on the board."/>
+            <ITEXT CH=" Solder the wires that connect to the garage door to the normally open pin and ground on the relay. Again trim the excess leads on the board."/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="6."/>
-            <ITEXT CH="       Lastly cover the bottom of the board we have just made with electrical tape. Once that is done you can connect it to the Raspberry Pi and Garage Door Opener."/>
+            <ITEXT CH=" Lastly cover the bottom of the board we have just made with electrical tape. Once that is done you can connect it to the Raspberry Pi and Garage Door Opener."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="You can see a video of the system working here: http://bit.ly/1mprlZa"/>
+            <ITEXT CH="You can see a video of the system working at: "/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH="https://www.youtube.com/watch?v=3glWNjPUQpI"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="You can learn how to open your garage door from outside your wifi network here: http://bit.ly/1mprhIU"/>
+            <ITEXT CH="You can learn how to open your garage door from outside your wifi network here: "/>
+            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://bit.ly/1mprhIU"/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
