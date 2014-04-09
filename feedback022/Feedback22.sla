@@ -38,7 +38,7 @@
         <LAYERS NUMMER="2" LEVEL="2" NAME="text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffff00"/>
         <LAYERS NUMMER="3" LEVEL="3" NAME="Page_number" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="0" useColor="0" mirrorH="0" mirrorV="0" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="1" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="1.98387909936127e-316" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="600" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="600" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Fonts Name="Bitstream Charter Bold"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
@@ -148,14 +148,13 @@
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
-            <ITEXT FONTSIZE="12" CH="After taking the plunge and purchasing my very first Raspberry Pi, I stumbled upon your great magazine, As a complete novice to the world of the Raspberry Pi, The MagPi magazine is an excellent resource. The variety of articles, guides and project ideas are an inspiration; there is really something for everyone!"/>
+            <ITEXT FONTSIZE="12" CH="After taking the plunge and purchasing my very first Raspberry Pi, I stumbled upon your great magazine. As a complete novice to the world of the Raspberry Pi, The MagPi magazine is an excellent resource. The variety of articles, guides and project ideas are an inspiration; there is really something for everyone!"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONTSIZE="12" CH="Many thanks,"/>
             <para ALIGN="2" LINESP="14"/>
             <ITEXT FONTSIZE="12" CH="Caron Jones"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
-            <para ALIGN="3" LINESP="14"/>
             <ITEXT FONTSIZE="12" FCOLOR="Cyan" FSHADE="100" CH="Good day. I am Ober Choo from Cytron Technologies, Malaysia."/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
